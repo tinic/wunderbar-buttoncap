@@ -1,5 +1,7 @@
-Adds 27 caps for fountain syrups sold in bag-in-box (Boylan, Jones, Pure Craft, Tractor, Hometown, Top Hat and others): 254 round caps in all.
+Adds caps for the Wunder-Bar long button.
 
-- New: birch beer (BRCH, RBCH), diet root beer (DRB), root beer float (RBF), Mug (MUG), cane cola (CANE, DCANE), light cola (LCOLA), cherry cola (CCOLA, CPC), black cherry (BCHR), cherry cream (CHCR), orange & cream (O&C), dreamsicle (DREAM), green apple (GA), lemongrass (LGR), citrus fizz (FIZZ), Kilowatt citrus (KW), East India tonic (EIT), flavoured lemonades (SLADE, BLADE, BBL, LCL), cherry limeade (CLMD), pineapple cream (PC), lemon sweet tea (LTEA), unsweetened tea (UTEA).
-- The other syrups on that list already have a cap (COLA, DIET, ZERO, GALE, GBEER, RBEER, CREAM, PUNCH, LADE, PL, SOUR, MARG, ...).
-- Open `round/index.html` in the archive to see every cap, grouped.
+- `long/`: 26 caps for the long button PH10-76 (20.32 x 7.62 mm), with a full word on the face: SODA, WATER, CLUB SODA, VODKA, GIN, TEQUILA, TONIC and more.
+- `long-ph10-32/`: the same 26 caps with the two snap pins for PH10-32.
+- The long cap is the exact shape of the original part (both configurations), with the label as a 0.4 mm inlay on the face.
+- `round/`: the 254 round caps, unchanged.
+- Open `round/index.html` or `long/index.html` in the archive to see every cap.

@@ -24,7 +24,20 @@ from fontTools.ttLib import TTFont
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BUILD = os.path.join(ROOT, "build")
 
-# One entry per cap type. "long" (the PH10-76 long button) comes later.
+# One entry per cap type. "labels" names the labels CSV when it is not <type>.csv.
+LONG = dict(
+    sketch="LabelSketch",
+    text_link="j1",
+    font="fonts/Anton-Regular.ttf",
+    # The face is a stadium: two R2.4 ends 12.472 mm apart. Each line's box corners
+    # stay 0.4 mm inside it.
+    fit_stadium=[6.236, 2.0],
+    h_max=3.6,
+    line_spacing=0.62,
+    two_line_gain=1.12,
+    camera={"target": [0, 0, 2.5], "yaw": 3.14159, "pitch": -1.2, "distance": 36},
+    labels="long",
+)
 CAP_TYPES = {
     "round": dict(
         design="cad/round/GunCap.sc",
@@ -37,6 +50,10 @@ CAP_TYPES = {
         two_line_gain=1.12, # two lines only when the letters get this much bigger
         camera={"target": [0, 0, 1.6], "yaw": 3.14159, "pitch": -0.95, "distance": 26},
     ),
+    # Wunder-Bar long button PH10-76.
+    "long": dict(LONG, design="cad/long/LongCap.sc"),
+    # The same cap with the two snap pins for PH10-32.
+    "long-ph10-32": dict(LONG, design="cad/long-ph10-32/LongCap.sc"),
 }
 
 COLOURS = {
@@ -53,19 +70,37 @@ def line_factor(font):
     return (hh.ascent - hh.descent + hh.lineGap) / f["OS/2"].sCapHeight
 
 
+def corner_scale(x, y, cfg):
+    """Largest s that keeps the point (s*x, s*y) inside the face's fit shape."""
+    if "fit_stadium" not in cfg:
+        return cfg["fit_r"] / max(1e-9, (x * x + y * y) ** 0.5)
+    a, r = cfg["fit_stadium"]
+
+    def inside(s):
+        px, py = abs(s * x), abs(s * y)
+        dx = max(0.0, px - a)
+        return dx * dx + py * py <= r * r
+
+    lo, hi = 0.0, 1000.0
+    for _ in range(60):
+        mid = (lo + hi) / 2
+        lo, hi = (mid, hi) if inside(mid) else (lo, mid)
+    return lo
+
+
 def fit(lines, font, cfg):
-    """Capital height that keeps every line's box inside fit_r."""
+    """Capital height that keeps every line's box inside the face's fit shape."""
     ld = line_factor(font) * cfg["line_spacing"]
     top = (1 + (len(lines) - 1) * ld) / 2  # first line's capital top: the block is centred
-    r = 0.0
+    h = cfg["h_max"]
     for i, t in enumerate(lines):
         x0, x1, y0, y1 = textfit.extents(t, font, 1.0)
         a = textfit.advance(t, font) / 2   # SolidCraft centres each line on its advance
         base = top - 1 - i * ld
         for x in (x0 - a, x1 - a):
             for y in (base + y0, base + y1):
-                r = max(r, (x * x + y * y) ** 0.5)
-    return min(cfg["h_max"], cfg["fit_r"] / r)
+                h = min(h, corner_scale(x, y, cfg))
+    return h
 
 
 def layout(label, font, cfg):
@@ -155,11 +190,11 @@ def main():
     ap.add_argument("--force", action="store_true", help="rebuild caps whose inputs did not change")
     a = ap.parse_args()
     cfg = CAP_TYPES[a.type]
-    rows = list(csv.DictReader(open(os.path.join(ROOT, "labels", a.type + ".csv"))))
+    rows = list(csv.DictReader(open(os.path.join(ROOT, "labels", cfg.get("labels", a.type) + ".csv"))))
     files = [r["file"] for r in rows]
     dup = sorted({f for f in files if files.count(f) > 1})
     if dup:
-        sys.exit("duplicate file names in labels/%s.csv: %s" % (a.type, ", ".join(dup)))
+        sys.exit("duplicate file names in labels/%s.csv: %s" % (cfg.get("labels", a.type), ", ".join(dup)))
     if a.only:
         keep = set(a.only.split(","))
         rows = [r for r in rows if r["file"] in keep]

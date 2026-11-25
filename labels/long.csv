@@ -1,0 +1,27 @@
+file,label,group,cap,letter,source
+SODA,SODA,Water and soda,White,Black,house
+WATER,WATER,Water and soda,White,Blue,house
+CLUB_SODA,CLUB SODA,Water and soda,White,Black,house
+SELTZER,SELTZER,Water and soda,White,Blue,house
+SPARKLING,SPARKLING,Water and soda,White,Blue,house
+CARB,CARB,Water and soda,White,Black,house
+EAU,EAU,Water and soda,White,Black,house
+HOT_WATER,HOT WATER,Water and soda,Red,White,house
+TONIC,TONIC,Mixers,White,Black,house
+COLA,COLA,Mixers,Red,White,house
+DIET,DIET,Mixers,Blue,White,house
+GINGER_ALE,GINGER ALE,Mixers,Green,White,house
+LEMON_LIME,LEMON LIME,Mixers,Yellow,Green,house
+SOUR_MIX,SOUR MIX,Mixers,Green,White,house
+LEMONADE,LEMONADE,Mixers,Yellow,Black,house
+ICED_TEA,ICED TEA,Mixers,Brown,White,house
+NECTAR,NECTAR,Mixers,White,Black,house
+HONEY,HONEY,Mixers,Yellow,Black,house
+THICK,THICK,Mixers,White,Black,house
+VODKA,VODKA,Spirits,White,Black,house
+GIN,GIN,Spirits,Blue,White,house
+RUM,RUM,Spirits,White,Black,house
+TEQUILA,TEQUILA,Spirits,White,Black,house
+WHISKEY,WHISKEY,Spirits,Brown,White,house
+BOURBON,BOURBON,Spirits,Brown,White,house
+SCOTCH,SCOTCH,Spirits,Maroon,White,house
