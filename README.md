@@ -130,13 +130,15 @@ Tips:
 ## Storage tray
 
 `storage/CapTray.3mf` in the release keeps caps label up in a box with a 200 x 200 mm inside. Each cap
-sits on a peg shaped like the gun's button and lifts straight off. A tray holds 210 round caps (15 x 14)
+clicks onto a peg shaped like the gun's button: a collar on the peg catches the snap rib inside the cap,
+so the caps stay put when the tray is bumped, and a light pull takes one off. A tray holds 210 round caps (15 x 14)
 and, in the front row, 8 long caps. Trays stack: each stands on the rim of the one below, and the
 notches in two walls let you lift a tray out.
 
 Print `storage/CapTray-fit-coupon.3mf` first: a corner of the tray with 6 round pegs and a long peg. If
-the caps are too loose or too tight, change `peg_d`, `peg_flat`, `lpeg_w` in `cad/tray/CapTray.sc`
-(0.05 mm steps) and run `make tray`. `box_in` sets the box size.
+the caps hold too little or too much, change `collar_d` (round, default 7.35 mm against the cap's 7.2 mm
+rib) and `lcollar_w` (long, 4.65 mm against 4.506 mm) in `cad/tray/CapTray.sc` in 0.05 mm steps, and run
+`make tray`. `box_in` sets the box size.
 
 ![Storage tray](docs/tray.png)
 
