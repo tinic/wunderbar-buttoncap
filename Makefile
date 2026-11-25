@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 # Build every cap, the preview gallery and the release archive.
 #   make            3MF + preview PNG per label (only what changed)
 #   make gallery    build/<type>/index.html and contact-sheet.png

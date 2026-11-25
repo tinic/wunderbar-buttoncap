@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Build WunderBar bar gun button caps: one 3MF and one preview PNG per label.
 
 usage: build.py [--type round] [--only FILE,...] [--jobs N] [--force]

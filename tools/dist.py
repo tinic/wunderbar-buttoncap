@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Pack the release archive: dist/wunderbar-buttoncap-<version>.zip
 
 usage: dist.py VERSION [--type round ...]
@@ -18,6 +19,10 @@ Label part the letter colour and the Cap part the cap colour. The label is a
 0.4 mm inlay flush with the face.
 
 Fits Wunder-Bar M4 round buttons (as PH10-74-xxx caps).
+
+The caps (3MF files and previews) are licensed under CERN-OHL-P-2.0
+(LICENSE-CERN-OHL-P.txt). Product names on the labels are trademarks of their
+owners; the labels only name the drink that a button dispenses.
 """
 
 
@@ -33,6 +38,7 @@ def main():
     count = 0
     with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED) as z:
         z.writestr(name + "/README.txt", README.format(version=a.version, first=types[0]))
+        z.write(os.path.join(ROOT, "LICENSE-CERN-OHL-P.txt"), name + "/LICENSE-CERN-OHL-P.txt")
         for t in types:
             base = os.path.join(ROOT, "build", t)
             z.write(os.path.join(ROOT, "labels", t + ".csv"), "%s/%s/labels.csv" % (name, t))

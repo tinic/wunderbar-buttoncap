@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Rewrite SolidCraft's 3MF as one object with two parts, "Cap" and "Label".
 
 SolidCraft writes one object per body, and the label's letters are separate

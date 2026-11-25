@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
 """Make the preview gallery of one cap type: build/<type>/index.html and contact-sheet.png.
 
 usage: gallery.py [--type round]

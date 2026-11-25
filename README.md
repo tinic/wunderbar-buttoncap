@@ -92,3 +92,11 @@ The design keeps SolidCraft's built-in font, so it opens on any computer. The bu
 
 Product names on the labels, such as COKE or PEPSI, are trademarks of their owners. The labels only name
 the drink that a button dispenses. This project has no connection with Wunder-Bar or the brand owners.
+
+## License
+
+| What | License |
+|---|---|
+| The design (`cad/`), the labels (`labels/`) and the built 3MF files and previews | [CERN-OHL-P-2.0](LICENSE-CERN-OHL-P.txt) |
+| The build code (`tools/`, `Makefile`) | [MIT](LICENSE-MIT.txt) |
+| The font (`fonts/Anton-Regular.ttf`) | [SIL Open Font License 1.1](fonts/OFL-Anton.txt) |

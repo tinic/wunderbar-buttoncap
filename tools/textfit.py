@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: MIT
 """Measure a label's outline extents in a font, in mm at a given capital height."""
 from fontTools.ttLib import TTFont
 from fontTools.pens.boundsPen import BoundsPen
