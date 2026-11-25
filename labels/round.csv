@@ -120,6 +120,25 @@ SPICY_GINGER,SG,Sodas and mixers,Brown,White,house
 LEMON_LIME,LL,Sodas and mixers,Yellow,Green,house
 BITTER_LEMON,BLEM,Sodas and mixers,Yellow,Black,house
 KOMBUCHA,KOM,Sodas and mixers,Orange,Black,house
+CITRUS_FIZZ,FIZZ,Sodas and mixers,Yellow,Black,house
+KILOWATT_CITRUS,KW,Sodas and mixers,Black,Yellow,house
+BIRCH_BEER,BRCH,Sodas and mixers,White,Brown,house
+RED_BIRCH_BEER,RBCH,Sodas and mixers,Red,White,house
+DIET_ROOT_BEER,DRB,Sodas and mixers,White,Brown,house
+ROOT_BEER_FLOAT,RBF,Sodas and mixers,Brown,White,house
+MUG_ROOT_BEER,MUG,Sodas and mixers,Brown,Yellow,house
+CANE_COLA,CANE,Sodas and mixers,Red,White,house
+DIET_CANE_COLA,DCANE,Sodas and mixers,White,Red,house
+LIGHT_COLA,LCOLA,Sodas and mixers,White,Black,house
+CHERRY_COLA,CCOLA,Sodas and mixers,Maroon,White,house
+CHERRY_PEPPER_COLA,CPC,Sodas and mixers,Maroon,Yellow,house
+BLACK_CHERRY,BCHR,Sodas and mixers,Black,Red,house
+CHERRY_CREAM,CHCR,Sodas and mixers,Pink,Maroon,house
+ORANGE_AND_CREAM,O&C,Sodas and mixers,White,Orange,house
+ORANGE_DREAMSICLE,DREAM,Sodas and mixers,Orange,White,house
+GREEN_APPLE,GA,Sodas and mixers,Green,White,house
+LEMONGRASS,LGR,Sodas and mixers,Yellow,Green,house
+EAST_INDIA_TONIC,EIT,Sodas and mixers,White,Blue,house
 COFFEE,JAVA,"Coffee, tea and milk",Black,White,house
 COLD_BREW,CB,"Coffee, tea and milk",Black,White,house
 ESPRESSO,ESP,"Coffee, tea and milk",Black,White,house
@@ -132,6 +151,8 @@ CHAI,CHAI,"Coffee, tea and milk",Brown,White,house
 MILK,MILK,"Coffee, tea and milk",White,Blue,house
 OAT_MILK,OAT,"Coffee, tea and milk",White,Brown,house
 HORCHATA,HOR,"Coffee, tea and milk",White,Brown,house
+LEMON_SWEET_TEA,LTEA,"Coffee, tea and milk",Brown,Yellow,house
+UNSWEETENED_TEA,UTEA,"Coffee, tea and milk",White,Brown,house
 PICKLE_JUICE,PJ,Juices and fruit,Green,White,house
 OLIVE_JUICE,OLV,Juices and fruit,Green,White,house
 BLOOD_ORANGE,BO,Juices and fruit,Red,White,house
@@ -149,6 +170,12 @@ LYCHEE,LYC,Juices and fruit,Pink,Black,house
 YUZU,YUZU,Juices and fruit,Yellow,Black,house
 CUCUMBER,CUC,Juices and fruit,Green,White,house
 CUCUMBER_LIME,CL,Juices and fruit,Green,White,house
+STRAWBERRY_LEMONADE,SLADE,Juices and fruit,Pink,Black,house
+BERRY_LEMONADE,BLADE,Juices and fruit,Purple,White,house
+BLUEBERRY_LEMONADE,BBL,Juices and fruit,Blue,Yellow,house
+LEFT_COAST_LEMONADE,LCL,Juices and fruit,Yellow,Blue,house
+CHERRY_LIMEADE,CLMD,Juices and fruit,Red,White,house
+PINEAPPLE_CREAM,PC,Juices and fruit,Yellow,Black,house
 SIMPLE_SYRUP,SYR,Syrups and flavours,White,Black,house
 AGAVE,AGV,Syrups and flavours,Yellow,Black,house
 HONEY,HNY,Syrups and flavours,Yellow,Black,house
