@@ -1,0 +1,12 @@
+{
+  "bed": [330, 320],
+  "filaments": {"Red": 1, "White": 2, "Green": 3, "Grey": 4, "Black": 5, "Blue": 6},
+  "letter_filaments": {"Black": 7, "White": 8},
+  "colour_map": {"Yellow": "White", "Orange": "Red", "Pink": "Red", "Brown": "Black",
+                 "Purple": "Blue", "Maroon": "Red", "Burgundy": "Red"},
+  "row_gap": 3,
+  "rows": [
+    {"type": "round", "pitch": 13, "per_row": 20, "caps": "all"},
+    {"type": "long", "pitch": 23.5, "per_row": 9, "caps": "all"}
+  ]
+}

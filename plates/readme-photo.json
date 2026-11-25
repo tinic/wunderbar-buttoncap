@@ -8,8 +8,8 @@
     "White": 2,
     "Green": 3,
     "Grey": 4,
-    "Blue": 6,
-    "Black": 7
+    "Black": 5,
+    "Blue": 6
   },
   "row_gap": 6,
   "rows": [
@@ -58,7 +58,7 @@
     }
   ],
   "letter_filaments": {
-    "White": 2,
-    "Black": 5
+    "Black": 7,
+    "White": 8
   }
 }

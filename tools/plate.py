@@ -17,6 +17,12 @@ SPEC.json:
     "row_gap": 6
   }
 
+A row can also be {"type": "round", "pitch": 13, "per_row": 20, "caps": "all"}: every
+cap of that type, in labels CSV order, over as many rows as it takes.
+"colour_map": {"Yellow": "White", ...} replaces colours that are not loaded; when that
+leaves dark letters on a dark cap (or the same colour), the letters become White, or
+Black on a white cap.
+
 Each cap is an object with two parts, Cap and Label, each set to the filament of its
 colour (from labels/<type>.csv). The file carries no printer or process settings, so
 Bambu Studio keeps the ones it has. Build the caps first (make).
@@ -57,8 +63,28 @@ def main():
     bed_w, bed_d = spec["bed"]
     slots = spec["filaments"]
     letter_slots = dict(slots, **spec.get("letter_filaments", {}))
-    rows = spec["rows"]
     gap = spec.get("row_gap", 6)
+    cmap = spec.get("colour_map", {})
+    dark = set(spec.get("dark_colours", ["Red", "Green", "Blue", "Black"]))
+
+    def colours(cap, letter):
+        cap, letter = cmap.get(cap, cap), cmap.get(letter, letter)
+        if letter == cap or (cap in dark and letter in dark):
+            letter = "Black" if cap == "White" else "White"
+        return cap, letter
+
+    # Expand "all" rows.
+    rows = []
+    for row in spec["rows"]:
+        if row["caps"] != "all":
+            rows.append(row)
+            continue
+        t = row["type"]
+        files = [r["file"] for r in csv.DictReader(open(os.path.join(
+            ROOT, "labels", CAP_TYPES[t].get("labels", t) + ".csv")))]
+        n = row["per_row"]
+        for i in range(0, len(files), n):
+            rows.append(dict(row, caps=files[i:i + n]))
 
     # Load every cap and its colours.
     placed = []
@@ -68,15 +94,15 @@ def main():
             ROOT, "labels", CAP_TYPES[t].get("labels", t) + ".csv")))}
         items = []
         for f in row["caps"]:
-            r = labels[f]
-            if r["cap"] not in slots:
-                sys.exit("%s/%s: no filament slot for the %s cap" % (t, f, r["cap"]))
-            if r["letter"] not in letter_slots:
-                sys.exit("%s/%s: no filament slot for %s letters" % (t, f, r["letter"]))
+            cap_c, let_c = colours(labels[f]["cap"], labels[f]["letter"])
+            if cap_c not in slots:
+                sys.exit("%s/%s: no filament slot for the %s cap" % (t, f, cap_c))
+            if let_c not in letter_slots:
+                sys.exit("%s/%s: no filament slot for %s letters" % (t, f, let_c))
             parts = load_parts(os.path.join(ROOT, "build", t, "3mf", f + ".3mf"))
             xs = [v[0] for v in parts["Cap"][0]]
             ys = [v[1] for v in parts["Cap"][0]]
-            items.append(dict(type=t, file=f, parts=parts, cap=slots[r["cap"]], letter=letter_slots[r["letter"]],
+            items.append(dict(type=t, file=f, parts=parts, cap=slots[cap_c], letter=letter_slots[let_c], colours=(cap_c, let_c),
                               w=max(xs) - min(xs), d=max(ys) - min(ys)))
         placed.append((row, items))
 
@@ -159,7 +185,10 @@ def main():
         z.writestr("3D/3dmodel.model", "\n".join(model))
         z.writestr("Metadata/model_settings.config", config)
     n = sum(len(items) for _, items in placed)
-    print("plate=%s caps=%d" % (out, n))
+    from collections import Counter
+    used = Counter("%s/%s" % it["colours"] for _, items in placed for it in items)
+    print("plate=%s caps=%d rows=%d depth_mm=%.1f" % (out, n, len(placed), total_d))
+    print("colours " + " ".join("%s=%d" % kv for kv in sorted(used.items())))
 
 
 if __name__ == "__main__":
