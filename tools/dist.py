@@ -16,7 +16,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 README = """WunderBar bar gun button caps {version}
 https://github.com/tinic/wunderbar-buttoncap
 
-Open {first}/index.html to see every cap. Each 3MF is one object with two
+Open {first}/index.html to see every cap. order-sheet.pdf lists every cap with a
+checkbox: print it for a bar to tick the caps it wants. Each 3MF is one object with two
 parts: "Cap" and "Label". Print the label face down. In the slicer, give the
 Label part the letter colour and the Cap part the cap colour. The label is a
 0.4 mm inlay flush with the face.
@@ -44,6 +45,9 @@ def main():
     with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED) as z:
         z.writestr(name + "/README.txt", README.format(version=a.version, first=types[0]))
         z.write(os.path.join(ROOT, "LICENSE-CERN-OHL-P.txt"), name + "/LICENSE-CERN-OHL-P.txt")
+        sheet = os.path.join(ROOT, "build", "order-sheet.pdf")
+        if os.path.exists(sheet):
+            z.write(sheet, name + "/order-sheet.pdf")
         for t in types:
             base = os.path.join(ROOT, "build", t)
             z.write(os.path.join(ROOT, "labels", CAP_TYPES[t].get("labels", t) + ".csv"), "%s/%s/labels.csv" % (name, t))

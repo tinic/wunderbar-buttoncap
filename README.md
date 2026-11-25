@@ -22,7 +22,7 @@ Each cap is a two-colour print. The label is a 0.4 mm inlay, flush with the face
 
 1. Download `wunderbar-buttoncap-<version>.zip` from the
    [latest release](https://github.com/tinic/wunderbar-buttoncap/releases/latest) and unzip it.
-2. Open `round/index.html` or `long/index.html` in a browser. It shows every cap. Use the filter box
+2. Open `round/index.html` or `long/index.html` in a browser, or print `order-sheet.pdf` to tick the caps you want. It shows every cap. Use the filter box
    to find one.
 3. Open `<type>/3mf/<NAME>.3mf` in your slicer. The file holds one object with two parts: `Cap` and
    `Label`.
@@ -152,6 +152,7 @@ You need:
 |---|---|
 | `make` | One 3MF and one preview PNG for each label in `build/round/`, then `build/round/index.html` and `contact-sheet.png` |
 | `make docs` | The preview sheets in `docs/` and the "All caps" section of this README |
+| `make ordersheet` | `build/order-sheet.pdf`: every cap with a checkbox and a quantity field, US Letter, for a bar to order from |
 | `make dist VERSION=v0.2.0` | `dist/wunderbar-buttoncap-v0.2.0.zip` |
 | `make release VERSION=v0.2.0` | A draft GitHub release with the archive. Write `RELEASE_NOTES.md` first. |
 | `tools/plate.py plates/readme-photo.json build/readme-photo.3mf` | A Bambu Studio project with the caps of the plate spec, each part set to its filament slot; see [docs/bambu-3mf.md](docs/bambu-3mf.md) |
