@@ -1,0 +1,49 @@
+{
+  "bed": [
+    330,
+    320
+  ],
+  "filaments": {
+    "White": 1,
+    "Red": 2,
+    "Green": 4,
+    "Grey": 5,
+    "Black": 6,
+    "Blue": 7
+  },
+  "letter_filaments": {
+    "White": 3,
+    "Black": 8
+  },
+  "colour_map": {
+    "Yellow": "White",
+    "Orange": "Red",
+    "Pink": "Red",
+    "Brown": "Black",
+    "Purple": "Blue",
+    "Maroon": "Red",
+    "Burgundy": "Red"
+  },
+  "row_gap": 3,
+  "rows": [
+    {
+      "type": "round",
+      "pitch": 13,
+      "per_row": 20,
+      "caps": "all"
+    },
+    {
+      "type": "long",
+      "pitch": 23.5,
+      "per_row": 9,
+      "caps": "all"
+    }
+  ],
+  "project_settings": "plates/bambu/h3c-multi-diameter.json",
+  "letters": [
+    "Black",
+    "Blue",
+    "Green",
+    "Red"
+  ]
+}

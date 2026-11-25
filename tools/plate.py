@@ -24,6 +24,9 @@ cap of that type, in labels CSV order, over as many rows as it takes.
 leaves dark letters on a dark cap (or the same colour), the letters become White, or
 Black on a white cap.
 
+"letters": ["Black", "Blue"] keeps only the caps with those letter colours (after
+"colour_map").
+
 "split_by": "letter" writes one project per letter colour: OUT-<colour>-letters.3mf.
 
 "project_settings": "plates/bambu/h3c-multi-diameter.json" embeds a Bambu Studio
@@ -211,6 +214,9 @@ def main():
             placed += [(row, chosen[i:i + n]) for i in range(0, len(chosen), n)]
         return placed
 
+    keep = set(spec.get("letters", []))
+    if keep:
+        defs[:] = [(row, [it for it in items if it["colours"][1] in keep]) for row, items in defs]
     if spec.get("split_by") == "letter":
         base = out[:-4] if out.endswith(".3mf") else out
         groups = list(dict.fromkeys(it["colours"][1] for _, items in defs for it in items))
