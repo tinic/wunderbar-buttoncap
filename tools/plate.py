@@ -8,6 +8,8 @@ SPEC.json:
   {
     "bed": [330, 320],                      # printable area, mm
     "filaments": {"Red": 1, "White": 2},    # colour name -> filament slot in the printer
+    "letter_filaments": {"White": 2},       # optional: other slots for the letters, such as
+                                            # spools on a finer nozzle
     "rows": [                               # one list of caps per row, front row last
       {"type": "round", "pitch": 15, "caps": ["COKE", "SPRITE"]},
       {"type": "long", "pitch": 26, "caps": ["VODKA"]}
@@ -54,6 +56,7 @@ def main():
     spec = json.load(open(spec_path))
     bed_w, bed_d = spec["bed"]
     slots = spec["filaments"]
+    letter_slots = dict(slots, **spec.get("letter_filaments", {}))
     rows = spec["rows"]
     gap = spec.get("row_gap", 6)
 
@@ -66,13 +69,14 @@ def main():
         items = []
         for f in row["caps"]:
             r = labels[f]
-            for colour in (r["cap"], r["letter"]):
-                if colour not in slots:
-                    sys.exit("%s/%s: no filament slot for %s" % (t, f, colour))
+            if r["cap"] not in slots:
+                sys.exit("%s/%s: no filament slot for the %s cap" % (t, f, r["cap"]))
+            if r["letter"] not in letter_slots:
+                sys.exit("%s/%s: no filament slot for %s letters" % (t, f, r["letter"]))
             parts = load_parts(os.path.join(ROOT, "build", t, "3mf", f + ".3mf"))
             xs = [v[0] for v in parts["Cap"][0]]
             ys = [v[1] for v in parts["Cap"][0]]
-            items.append(dict(type=t, file=f, parts=parts, cap=slots[r["cap"]], letter=slots[r["letter"]],
+            items.append(dict(type=t, file=f, parts=parts, cap=slots[r["cap"]], letter=letter_slots[r["letter"]],
                               w=max(xs) - min(xs), d=max(ys) - min(ys)))
         placed.append((row, items))
 
