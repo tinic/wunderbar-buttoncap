@@ -3,12 +3,18 @@
 from fontTools.ttLib import TTFont
 from fontTools.pens.boundsPen import BoundsPen
 
+import threading
+
 _cache = {}
+_lock = threading.Lock()
+
 
 def _font(path):
-    if path not in _cache:
-        _cache[path] = TTFont(path)
-    return _cache[path]
+    # Loaded whole (lazy=False) and once: fontTools' lazy table loading is not thread-safe.
+    with _lock:
+        if path not in _cache:
+            _cache[path] = TTFont(path, lazy=False)
+        return _cache[path]
 
 def extents(text, font_path, cap_h=1.0):
     """Return (xmin, xmax, ymin, ymax) of `text` laid on baseline y=0, x from 0, in mm."""

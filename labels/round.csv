@@ -1,273 +1,459 @@
-file,label,group,cap,letter,source
-0,0,Letters and codes,White,Black,house
-1,1,Letters and codes,White,Black,wunderbar
-2,2,Letters and codes,White,Black,wunderbar
-3,3,Letters and codes,White,Black,house
-4,4,Letters and codes,White,Black,house
-5,5,Letters and codes,White,Black,house
-6,6,Letters and codes,White,Black,house
-7,7,Letters and codes,White,Black,house
-8,8,Letters and codes,White,Black,house
-9,9,Letters and codes,White,Black,house
-10,10,Letters and codes,White,Black,house
-A,A,Letters and codes,Green,White,wunderbar
-B,B,Letters and codes,Brown,White,wunderbar
-C,C,Letters and codes,White,Black,wunderbar
-D,D,Letters and codes,White,Black,wunderbar
-E,E,Letters and codes,White,Black,house
-F,F,Letters and codes,White,Black,wunderbar
-G,G,Letters and codes,Green,White,wunderbar
-H,H,Letters and codes,White,Black,house
-I,I,Letters and codes,White,Black,house
-J,J,Letters and codes,White,Black,wunderbar
-K,K,Letters and codes,White,Black,house
-L,L,Letters and codes,Yellow,Black,wunderbar
-M,M,Letters and codes,White,Black,wunderbar
-N,N,Letters and codes,White,Black,house
-O,O,Letters and codes,White,Black,wunderbar
-P,P,Letters and codes,Yellow,Black,wunderbar
-Q,Q,Letters and codes,White,Black,wunderbar
-R,R,Letters and codes,White,Black,wunderbar
-S,S,Letters and codes,White,Black,wunderbar
-T,T,Letters and codes,Brown,White,wunderbar
-U,U,Letters and codes,White,Black,house
-V,V,Letters and codes,White,Black,wunderbar
-W,W,Letters and codes,Pink,Black,wunderbar
-X,X,Letters and codes,White,Black,house
-Y,Y,Letters and codes,White,Black,house
-Z,Z,Letters and codes,White,Black,house
-BB,BB,Letters and codes,White,Black,wunderbar
-BL,BL,Letters and codes,Blue,White,wunderbar
-CR,CR,Letters and codes,Red,White,wunderbar
-DC,DC,Letters and codes,White,Black,wunderbar
-GF,GF,Letters and codes,Yellow,Black,wunderbar
-HO,HO,Letters and codes,Orange,White,wunderbar
-MY,MY,Letters and codes,Yellow,Black,wunderbar
-OJ,OJ,Letters and codes,Orange,Black,wunderbar
-RC,RC,Letters and codes,Blue,White,wunderbar
-SQ,SQ,Letters and codes,White,Black,wunderbar
-SS,SS,Letters and codes,White,Black,wunderbar
-TR,TR,Letters and codes,Yellow,Black,wunderbar
-AMP,AMP,Wunder-Bar catalogue,White,Black,wunderbar
-APPLE,APPLE,Wunder-Bar catalogue,Orange,Black,wunderbar
-BAM,BAM!,Wunder-Bar catalogue,Red,White,wunderbar
-BANZAI,BANZAI,Wunder-Bar catalogue,Red,Yellow,wunderbar
-BMARY,BMARY,Wunder-Bar catalogue,Brown,White,wunderbar
-BULL,BULL,Wunder-Bar catalogue,Black,White,wunderbar
-CHERRY,CHERRY,Wunder-Bar catalogue,Red,White,wunderbar
-COCO,COCO,Wunder-Bar catalogue,White,Black,wunderbar
-COKE,COKE,Wunder-Bar catalogue,Red,White,wunderbar
-COLA,COLA,Wunder-Bar catalogue,White,Black,wunderbar
-COLLINS,COLLINS,Wunder-Bar catalogue,Black,White,wunderbar
-CRAN,CRAN,Wunder-Bar catalogue,Red,White,wunderbar
-CREAM,CREAM,Wunder-Bar catalogue,Orange,Black,wunderbar
-7UP,7UP,Wunder-Bar catalogue,Green,White,wunderbar
-D7UP,D7UP,Wunder-Bar catalogue,Green,White,wunderbar
-DIET,DIET,Wunder-Bar catalogue,Blue,White,wunderbar
-DIETE,DIETE,Wunder-Bar catalogue,White,Black,wunderbar
-DOC,DOC,Wunder-Bar catalogue,Black,White,wunderbar
-D_PEP,D PEP,Wunder-Bar catalogue,Blue,White,wunderbar
-DR_P,DR P,Wunder-Bar catalogue,Brown,White,wunderbar
-DT_DRP,DT DRP,Wunder-Bar catalogue,White,Burgundy,wunderbar
-DT_DEW,DT DEW,Wunder-Bar catalogue,Green,White,wunderbar
-ENERGY,ENERGY,Wunder-Bar catalogue,White,Black,wunderbar
-FRESCA,FRESCA,Wunder-Bar catalogue,Blue,Black,wunderbar
-FUEL,FUEL,Wunder-Bar catalogue,Red,White,wunderbar
-GALE,GALE,Wunder-Bar catalogue,Green,White,wunderbar
-GATOR,GATOR,Wunder-Bar catalogue,White,Black,wunderbar
-GBEER,GBEER,Wunder-Bar catalogue,Brown,White,wunderbar
-GINGER,GINGER,Wunder-Bar catalogue,Green,White,wunderbar
-GRAPE,GRAPE,Wunder-Bar catalogue,Purple,White,wunderbar
-GRPFT,GRPFT,Wunder-Bar catalogue,White,Black,wunderbar
-LADE,LADE,Wunder-Bar catalogue,White,Black,wunderbar
-LEGEND,LEGEND,Wunder-Bar catalogue,Purple,Yellow,wunderbar
-LEM,LEM,Wunder-Bar catalogue,Blue,White,wunderbar
-LEMON,LEMON,Wunder-Bar catalogue,White,Black,wunderbar
-LIME,LIME,Wunder-Bar catalogue,Green,Black,wunderbar
-LION,LION,Wunder-Bar catalogue,Yellow,Black,wunderbar
-MANGO,MANGO,Wunder-Bar catalogue,Orange,Black,wunderbar
-MARG,MARG,Wunder-Bar catalogue,White,Black,wunderbar
-MAX,MAX,Wunder-Bar catalogue,Black,White,wunderbar
-MTDEW,MTDEW,Wunder-Bar catalogue,Yellow,Black,wunderbar
-NECTAR,NECTAR,Wunder-Bar catalogue,White,Black,wunderbar
-ORG,ORG,Wunder-Bar catalogue,Orange,Black,wunderbar
-PAPAYA,PAPAYA,Wunder-Bar catalogue,Purple,White,wunderbar
-PEACH,PEACH,Wunder-Bar catalogue,Orange,Black,wunderbar
-PEPSI,PEPSI,Wunder-Bar catalogue,Blue,White,wunderbar
-PIBB,PIBB,Wunder-Bar catalogue,Brown,White,wunderbar
-PINA,PINA,Wunder-Bar catalogue,White,Black,wunderbar
-PINE,PINE,Wunder-Bar catalogue,Yellow,Black,wunderbar
-POG,POG,Wunder-Bar catalogue,Purple,White,wunderbar
-POWER,POWER,Wunder-Bar catalogue,Blue,White,wunderbar
-PRUNE,PRUNE,Wunder-Bar catalogue,Brown,White,wunderbar
-PUNCH,PUNCH,Wunder-Bar catalogue,Red,White,wunderbar
-RASP,RASP,Wunder-Bar catalogue,Red,White,wunderbar
-RAVEN,RAVEN,Wunder-Bar catalogue,Yellow,Blue,wunderbar
-RBEER,RBEER,Wunder-Bar catalogue,White,Black,wunderbar
-REBEL,REBEL,Wunder-Bar catalogue,Yellow,Blue,wunderbar
-RED,RED,Wunder-Bar catalogue,Red,White,wunderbar
-RUSH,RUSH,Wunder-Bar catalogue,Red,White,wunderbar
-RYE,RYE,Wunder-Bar catalogue,White,Red,wunderbar
-SFL,SFL,Wunder-Bar catalogue,White,Black,wunderbar
-SF_T,SF-T,Wunder-Bar catalogue,Brown,White,wunderbar
-SLICE,SLICE,Wunder-Bar catalogue,White,Black,wunderbar
-SOBE,SOBE,Wunder-Bar catalogue,Yellow,Black,wunderbar
-SODA,SODA,Wunder-Bar catalogue,White,Black,wunderbar
-SOUR,SOUR,Wunder-Bar catalogue,White,Black,wunderbar
-SPORT,SPORT,Wunder-Bar catalogue,Yellow,Black,wunderbar
-SPRITE,SPRITE,Wunder-Bar catalogue,Green,White,wunderbar
-SQUIRT,SQUIRT,Wunder-Bar catalogue,Green,White,wunderbar
-STARRY,STARRY,Wunder-Bar catalogue,Green,White,wunderbar
-STRAW,STRAW,Wunder-Bar catalogue,Red,White,wunderbar
-TANGO,TANGO,Wunder-Bar catalogue,Orange,Black,wunderbar
-TEA,TEA,Wunder-Bar catalogue,White,Black,wunderbar
-THK,THK,Wunder-Bar catalogue,Orange,Black,wunderbar
-THROTL,THROTL,Wunder-Bar catalogue,Blue,White,wunderbar
-TOM,TOM,Wunder-Bar catalogue,Red,White,wunderbar
-TONIC,TONIC,Wunder-Bar catalogue,White,Black,wunderbar
-TSF,TSF,Wunder-Bar catalogue,Yellow,Black,wunderbar
-VIMTO,VIMTO,Wunder-Bar catalogue,Purple,White,wunderbar
-WILD_CHERRY,WILD CHERRY,Wunder-Bar catalogue,Maroon,White,wunderbar
-ZERO,ZERO,Wunder-Bar catalogue,White,Black,wunderbar
-SPARKLING_WATER,SPRK,Sodas and mixers,White,Blue,house
-MINERAL_WATER,MIN,Sodas and mixers,White,Blue,house
-SELTZER,SELT,Sodas and mixers,White,Blue,house
-HOT_WATER,HOT,Sodas and mixers,Red,White,house
-DIET_TONIC,DTON,Sodas and mixers,White,Blue,house
-SPICY_GINGER,SG,Sodas and mixers,Brown,White,house
-LEMON_LIME,LL,Sodas and mixers,Yellow,Green,house
-BITTER_LEMON,BLEM,Sodas and mixers,Yellow,Black,house
-KOMBUCHA,KOM,Sodas and mixers,Orange,Black,house
-CITRUS_FIZZ,FIZZ,Sodas and mixers,Yellow,Black,house
-KILOWATT_CITRUS,KW,Sodas and mixers,Black,Yellow,house
-BIRCH_BEER,BRCH,Sodas and mixers,White,Brown,house
-RED_BIRCH_BEER,RBCH,Sodas and mixers,Red,White,house
-DIET_ROOT_BEER,DRB,Sodas and mixers,White,Brown,house
-ROOT_BEER_FLOAT,RBF,Sodas and mixers,Brown,White,house
-MUG_ROOT_BEER,MUG,Sodas and mixers,Brown,Yellow,house
-CANE_COLA,CANE,Sodas and mixers,Red,White,house
-DIET_CANE_COLA,DCANE,Sodas and mixers,White,Red,house
-LIGHT_COLA,LCOLA,Sodas and mixers,White,Black,house
-CHERRY_COLA,CCOLA,Sodas and mixers,Maroon,White,house
-CHERRY_PEPPER_COLA,CPC,Sodas and mixers,Maroon,Yellow,house
-BLACK_CHERRY,BCHR,Sodas and mixers,Black,White,house
-CHERRY_CREAM,CHCR,Sodas and mixers,Pink,Maroon,house
-ORANGE_AND_CREAM,O&C,Sodas and mixers,White,Orange,house
-ORANGE_DREAMSICLE,DREAM,Sodas and mixers,Orange,White,house
-GREEN_APPLE,GA,Sodas and mixers,Green,White,house
-LEMONGRASS,LGR,Sodas and mixers,Yellow,Green,house
-EAST_INDIA_TONIC,EIT,Sodas and mixers,White,Blue,house
-COFFEE,JAVA,"Coffee, tea and milk",Black,White,house
-COLD_BREW,CB,"Coffee, tea and milk",Black,White,house
-ESPRESSO,ESP,"Coffee, tea and milk",Black,White,house
-ICED_COFFEE,IC,"Coffee, tea and milk",Black,White,house
-DECAF,DCAF,"Coffee, tea and milk",Orange,Black,house
-NITRO,NITRO,"Coffee, tea and milk",Black,White,house
-ICED_TEA,ITEA,"Coffee, tea and milk",Brown,White,house
-SWEET_TEA,STEA,"Coffee, tea and milk",Brown,White,house
-CHAI,CHAI,"Coffee, tea and milk",Brown,White,house
-MILK,MILK,"Coffee, tea and milk",White,Blue,house
-OAT_MILK,OAT,"Coffee, tea and milk",White,Brown,house
-HORCHATA,HOR,"Coffee, tea and milk",White,Brown,house
-LEMON_SWEET_TEA,LTEA,"Coffee, tea and milk",Brown,Yellow,house
-UNSWEETENED_TEA,UTEA,"Coffee, tea and milk",White,Brown,house
-PICKLE_JUICE,PJ,Juices and fruit,Green,White,house
-OLIVE_JUICE,OLV,Juices and fruit,Green,White,house
-BLOOD_ORANGE,BO,Juices and fruit,Red,White,house
-PINK_LEMONADE,PL,Juices and fruit,Pink,Black,house
-PASSION_FRUIT,PF,Juices and fruit,Orange,White,house
-GUAVA,GUA,Juices and fruit,Pink,Black,house
-BANANA,BAN,Juices and fruit,Yellow,Black,house
-CLAMATO,CLAM,Juices and fruit,Red,White,house
-COCONUT_CREAM,CC,Juices and fruit,White,Brown,house
-BLUEBERRY,BLU,Juices and fruit,Blue,White,house
-WATERMELON,WM,Juices and fruit,Pink,Black,house
-KIWI,KIWI,Juices and fruit,Green,White,house
-POMEGRANATE,POM,Juices and fruit,Maroon,White,house
-LYCHEE,LYC,Juices and fruit,Pink,Black,house
-YUZU,YUZU,Juices and fruit,Yellow,Black,house
-CUCUMBER,CUC,Juices and fruit,Green,White,house
-CUCUMBER_LIME,CL,Juices and fruit,Green,White,house
-STRAWBERRY_LEMONADE,SLADE,Juices and fruit,Pink,Black,house
-BERRY_LEMONADE,BLADE,Juices and fruit,Purple,White,house
-BLUEBERRY_LEMONADE,BBL,Juices and fruit,Blue,Yellow,house
-LEFT_COAST_LEMONADE,LCL,Juices and fruit,Yellow,Blue,house
-CHERRY_LIMEADE,CLMD,Juices and fruit,Red,White,house
-PINEAPPLE_CREAM,PC,Juices and fruit,Yellow,Black,house
-SIMPLE_SYRUP,SYR,Syrups and flavours,White,Black,house
-AGAVE,AGV,Syrups and flavours,Yellow,Black,house
-HONEY,HNY,Syrups and flavours,Yellow,Black,house
-HFCS_55,HFCS,Syrups and flavours,White,Black,house
-GRENADINE,GREN,Syrups and flavours,Red,White,house
-ORGEAT,ORGT,Syrups and flavours,White,Brown,house
-FALERNUM,FAL,Syrups and flavours,Yellow,Brown,house
-BITTERS,BIT,Syrups and flavours,Brown,White,house
-MINT,MINT,Syrups and flavours,Green,White,house
-BASIL,BAS,Syrups and flavours,Green,White,house
-JALAPENO,JAL,Syrups and flavours,Green,White,house
-SRIRACHA,SRI,Syrups and flavours,Red,White,house
-HOT_SAUCE,HOTS,Syrups and flavours,Red,Yellow,house
-VODKA,VOD,Spirits and liqueurs,White,Blue,house
-GIN,GIN,Spirits and liqueurs,Blue,White,house
-RUM,RUM,Spirits and liqueurs,White,Black,house
-WHITE_RUM,WR,Spirits and liqueurs,White,Black,house
-DARK_RUM,DR,Spirits and liqueurs,Brown,White,house
-SPICED_RUM,SR,Spirits and liqueurs,Brown,White,house
-TEQUILA,TEQ,Spirits and liqueurs,White,Black,house
-MEZCAL,MEZ,Spirits and liqueurs,Black,White,house
-WHISKEY,WSKY,Spirits and liqueurs,Brown,White,house
-BOURBON,BRB,Spirits and liqueurs,Brown,White,house
-SCOTCH,SCO,Spirits and liqueurs,Maroon,White,house
-IRISH_WHISKEY,IW,Spirits and liqueurs,Green,White,house
-BRANDY,BDY,Spirits and liqueurs,Brown,White,house
-COGNAC,COG,Spirits and liqueurs,Brown,Yellow,house
-PISCO,PSC,Spirits and liqueurs,Yellow,Black,house
-CACHACA,CACH,Spirits and liqueurs,Green,White,house
-SAKE,SAKE,Spirits and liqueurs,White,Black,house
-SOJU,SOJU,Spirits and liqueurs,Green,White,house
-CAMPARI,CAMP,Spirits and liqueurs,Red,Yellow,house
-APEROL,APER,Spirits and liqueurs,Orange,White,house
-VERMOUTH,VERM,Spirits and liqueurs,Maroon,White,house
-DRY_VERMOUTH,DV,Spirits and liqueurs,White,Black,house
-SWEET_VERMOUTH,SV,Spirits and liqueurs,Red,White,house
-TRIPLE_SEC,TS,Spirits and liqueurs,Orange,White,house
-COINTREAU,COIN,Spirits and liqueurs,Orange,White,house
-CURACAO,CUR,Spirits and liqueurs,Blue,White,house
-AMARETTO,AMAR,Spirits and liqueurs,Brown,White,house
-KAHLUA,KAH,Spirits and liqueurs,Black,Yellow,house
-BAILEYS,BLYS,Spirits and liqueurs,White,Brown,house
-SAMBUCA,SAMB,Spirits and liqueurs,White,Black,house
-ABSINTHE,ABS,Spirits and liqueurs,Green,White,house
-CHARTREUSE,CHAR,Spirits and liqueurs,Yellow,Green,house
-ST_GERMAIN,STG,Spirits and liqueurs,Yellow,Black,house
-FERNET,FERN,Spirits and liqueurs,Black,White,house
-JAGER,JAG,Spirits and liqueurs,Black,Orange,house
-MIDORI,MID,Spirits and liqueurs,Green,White,house
-CHAMBORD,CHAM,Spirits and liqueurs,Purple,White,house
-LIMONCELLO,LIMC,Spirits and liqueurs,Yellow,Black,house
-PROSECCO,PRO,Wine and beer,White,Green,house
-CHAMPAGNE,CHMP,Wine and beer,Yellow,Black,house
-WHITE_WINE,WW,Wine and beer,White,Black,house
-RED_WINE,RW,Wine and beer,Maroon,White,house
-ROSE,ROSE,Wine and beer,Pink,Black,house
-BEER,BEER,Wine and beer,Yellow,Black,house
-LAGER,LAG,Wine and beer,Yellow,Black,house
-IPA,IPA,Wine and beer,Orange,White,house
-STOUT,STOUT,Wine and beer,Black,White,house
-CIDER,CIDER,Wine and beer,Green,White,house
-HARD_SELTZER,HSEL,Wine and beer,White,Blue,house
-MOJITO,MOJ,Cocktails,Green,White,house
-DAIQUIRI,DAQ,Cocktails,Pink,Black,house
-OLD_FASHIONED,OF,Cocktails,Brown,White,house
-NEGRONI,NEG,Cocktails,Red,White,house
-SPRITZ,SPZ,Cocktails,Orange,White,house
-MULE,MULE,Cocktails,Brown,White,house
-PALOMA,PAL,Cocktails,Pink,Black,house
-COSMO,COS,Cocktails,Pink,Black,house
-MANHATTAN,MAN,Cocktails,Maroon,White,house
-MARTINI,MART,Cocktails,Grey,Black,house
-SANGRIA,SANG,Cocktails,Maroon,White,house
-CO2,CO2,Service,Grey,Black,house
-SPARE,SPARE,Service,Grey,Black,house
-CLEAN,CLN,Service,Blue,White,house
-RINSE,RNS,Service,Blue,White,house
+file,label,group,cap,letter,source,font
+0,0,Letters and codes,White,Black,house,
+1,1,Letters and codes,White,Black,wunderbar,
+2,2,Letters and codes,White,Black,wunderbar,
+3,3,Letters and codes,White,Black,house,
+4,4,Letters and codes,White,Black,house,
+5,5,Letters and codes,White,Black,house,
+6,6,Letters and codes,White,Black,house,
+7,7,Letters and codes,White,Black,house,
+8,8,Letters and codes,White,Black,house,
+9,9,Letters and codes,White,Black,house,
+10,10,Letters and codes,White,Black,house,
+A,A,Letters and codes,Green,White,wunderbar,
+B,B,Letters and codes,Brown,White,wunderbar,
+C,C,Letters and codes,White,Black,wunderbar,
+D,D,Letters and codes,White,Black,wunderbar,
+E,E,Letters and codes,White,Black,house,
+F,F,Letters and codes,White,Black,wunderbar,
+G,G,Letters and codes,Green,White,wunderbar,
+H,H,Letters and codes,White,Black,house,
+I,I,Letters and codes,White,Black,house,
+J,J,Letters and codes,White,Black,wunderbar,
+K,K,Letters and codes,White,Black,house,
+L,L,Letters and codes,Yellow,Black,wunderbar,
+M,M,Letters and codes,White,Black,wunderbar,
+N,N,Letters and codes,White,Black,house,
+O,O,Letters and codes,White,Black,wunderbar,
+P,P,Letters and codes,Yellow,Black,wunderbar,
+Q,Q,Letters and codes,White,Black,wunderbar,
+R,R,Letters and codes,White,Black,wunderbar,
+S,S,Letters and codes,White,Black,wunderbar,
+T,T,Letters and codes,Brown,White,wunderbar,
+U,U,Letters and codes,White,Black,house,
+V,V,Letters and codes,White,Black,wunderbar,
+W,W,Letters and codes,Pink,Black,wunderbar,
+X,X,Letters and codes,White,Black,house,
+Y,Y,Letters and codes,White,Black,house,
+Z,Z,Letters and codes,White,Black,house,
+BB,BB,Letters and codes,White,Black,wunderbar,
+BL,BL,Letters and codes,Blue,White,wunderbar,
+CR,CR,Letters and codes,Red,White,wunderbar,
+DC,DC,Letters and codes,White,Black,wunderbar,
+GF,GF,Letters and codes,Yellow,Black,wunderbar,
+HO,HO,Letters and codes,Orange,White,wunderbar,
+MY,MY,Letters and codes,Yellow,Black,wunderbar,
+OJ,OJ,Letters and codes,Orange,Black,wunderbar,
+RC,RC,Letters and codes,Blue,White,wunderbar,
+SQ,SQ,Letters and codes,White,Black,wunderbar,
+SS,SS,Letters and codes,White,Black,wunderbar,
+TR,TR,Letters and codes,Yellow,Black,wunderbar,
+AMP,AMP,Wunder-Bar catalogue,White,Black,wunderbar,
+APPLE,APPLE,Wunder-Bar catalogue,Orange,Black,wunderbar,
+BAM,BAM!,Wunder-Bar catalogue,Red,White,wunderbar,
+BANZAI,BANZAI,Wunder-Bar catalogue,Red,Yellow,wunderbar,
+BMARY,BMARY,Wunder-Bar catalogue,Brown,White,wunderbar,
+BULL,BULL,Wunder-Bar catalogue,Black,White,wunderbar,
+CHERRY,CHERRY,Wunder-Bar catalogue,Red,White,wunderbar,
+COCO,COCO,Wunder-Bar catalogue,White,Black,wunderbar,
+COKE,COKE,Wunder-Bar catalogue,Red,White,wunderbar,
+COLA,COLA,Wunder-Bar catalogue,White,Black,wunderbar,
+COLLINS,COLLINS,Wunder-Bar catalogue,Black,White,wunderbar,
+CRAN,CRAN,Wunder-Bar catalogue,Red,White,wunderbar,
+CREAM,CREAM,Wunder-Bar catalogue,Orange,Black,wunderbar,
+7UP,7UP,Wunder-Bar catalogue,Green,White,wunderbar,
+D7UP,D7UP,Wunder-Bar catalogue,Green,White,wunderbar,
+DIET,DIET,Wunder-Bar catalogue,Blue,White,wunderbar,
+DIETE,DIETE,Wunder-Bar catalogue,White,Black,wunderbar,
+DOC,DOC,Wunder-Bar catalogue,Black,White,wunderbar,
+D_PEP,D PEP,Wunder-Bar catalogue,Blue,White,wunderbar,
+DR_P,DR P,Wunder-Bar catalogue,Brown,White,wunderbar,
+DT_DRP,DT DRP,Wunder-Bar catalogue,White,Burgundy,wunderbar,
+DT_DEW,DT DEW,Wunder-Bar catalogue,Green,White,wunderbar,
+ENERGY,ENERGY,Wunder-Bar catalogue,White,Black,wunderbar,
+FRESCA,FRESCA,Wunder-Bar catalogue,Blue,Black,wunderbar,
+FUEL,FUEL,Wunder-Bar catalogue,Red,White,wunderbar,
+GALE,GALE,Wunder-Bar catalogue,Green,White,wunderbar,
+GATOR,GATOR,Wunder-Bar catalogue,White,Black,wunderbar,
+GBEER,GBEER,Wunder-Bar catalogue,Brown,White,wunderbar,
+GINGER,GINGER,Wunder-Bar catalogue,Green,White,wunderbar,
+GRAPE,GRAPE,Wunder-Bar catalogue,Purple,White,wunderbar,
+GRPFT,GRPFT,Wunder-Bar catalogue,White,Black,wunderbar,
+LADE,LADE,Wunder-Bar catalogue,White,Black,wunderbar,
+LEGEND,LEGEND,Wunder-Bar catalogue,Purple,Yellow,wunderbar,
+LEM,LEM,Wunder-Bar catalogue,Blue,White,wunderbar,
+LEMON,LEMON,Wunder-Bar catalogue,White,Black,wunderbar,
+LIME,LIME,Wunder-Bar catalogue,Green,Black,wunderbar,
+LION,LION,Wunder-Bar catalogue,Yellow,Black,wunderbar,
+MANGO,MANGO,Wunder-Bar catalogue,Orange,Black,wunderbar,
+MARG,MARG,Wunder-Bar catalogue,White,Black,wunderbar,
+MAX,MAX,Wunder-Bar catalogue,Black,White,wunderbar,
+MTDEW,MTDEW,Wunder-Bar catalogue,Yellow,Black,wunderbar,
+NECTAR,NECTAR,Wunder-Bar catalogue,White,Black,wunderbar,
+ORG,ORG,Wunder-Bar catalogue,Orange,Black,wunderbar,
+PAPAYA,PAPAYA,Wunder-Bar catalogue,Purple,White,wunderbar,
+PEACH,PEACH,Wunder-Bar catalogue,Orange,Black,wunderbar,
+PEPSI,PEPSI,Wunder-Bar catalogue,Blue,White,wunderbar,
+PIBB,PIBB,Wunder-Bar catalogue,Brown,White,wunderbar,
+PINA,PINA,Wunder-Bar catalogue,White,Black,wunderbar,
+PINE,PINE,Wunder-Bar catalogue,Yellow,Black,wunderbar,
+POG,POG,Wunder-Bar catalogue,Purple,White,wunderbar,
+POWER,POWER,Wunder-Bar catalogue,Blue,White,wunderbar,
+PRUNE,PRUNE,Wunder-Bar catalogue,Brown,White,wunderbar,
+PUNCH,PUNCH,Wunder-Bar catalogue,Red,White,wunderbar,
+RASP,RASP,Wunder-Bar catalogue,Red,White,wunderbar,
+RAVEN,RAVEN,Wunder-Bar catalogue,Yellow,Blue,wunderbar,
+RBEER,RBEER,Wunder-Bar catalogue,White,Black,wunderbar,
+REBEL,REBEL,Wunder-Bar catalogue,Yellow,Blue,wunderbar,
+RED,RED,Wunder-Bar catalogue,Red,White,wunderbar,
+RUSH,RUSH,Wunder-Bar catalogue,Red,White,wunderbar,
+RYE,RYE,Wunder-Bar catalogue,White,Red,wunderbar,
+SFL,SFL,Wunder-Bar catalogue,White,Black,wunderbar,
+SF_T,SF-T,Wunder-Bar catalogue,Brown,White,wunderbar,
+SLICE,SLICE,Wunder-Bar catalogue,White,Black,wunderbar,
+SOBE,SOBE,Wunder-Bar catalogue,Yellow,Black,wunderbar,
+SODA,SODA,Wunder-Bar catalogue,White,Black,wunderbar,
+SOUR,SOUR,Wunder-Bar catalogue,White,Black,wunderbar,
+SPORT,SPORT,Wunder-Bar catalogue,Yellow,Black,wunderbar,
+SPRITE,SPRITE,Wunder-Bar catalogue,Green,White,wunderbar,
+SQUIRT,SQUIRT,Wunder-Bar catalogue,Green,White,wunderbar,
+STARRY,STARRY,Wunder-Bar catalogue,Green,White,wunderbar,
+STRAW,STRAW,Wunder-Bar catalogue,Red,White,wunderbar,
+TANGO,TANGO,Wunder-Bar catalogue,Orange,Black,wunderbar,
+TEA,TEA,Wunder-Bar catalogue,White,Black,wunderbar,
+THK,THK,Wunder-Bar catalogue,Orange,Black,wunderbar,
+THROTL,THROTL,Wunder-Bar catalogue,Blue,White,wunderbar,
+TOM,TOM,Wunder-Bar catalogue,Red,White,wunderbar,
+TONIC,TONIC,Wunder-Bar catalogue,White,Black,wunderbar,
+TSF,TSF,Wunder-Bar catalogue,Yellow,Black,wunderbar,
+VIMTO,VIMTO,Wunder-Bar catalogue,Purple,White,wunderbar,
+WILD_CHERRY,WILD CHERRY,Wunder-Bar catalogue,Maroon,White,wunderbar,
+ZERO,ZERO,Wunder-Bar catalogue,White,Black,wunderbar,
+SPARKLING_WATER,SPRK,Sodas and mixers,White,Blue,house,
+MINERAL_WATER,MIN,Sodas and mixers,White,Blue,house,
+SELTZER,SELT,Sodas and mixers,White,Blue,house,
+HOT_WATER,HOT,Sodas and mixers,Red,White,house,
+DIET_TONIC,DTON,Sodas and mixers,White,Blue,house,
+SPICY_GINGER,SG,Sodas and mixers,Brown,White,house,
+LEMON_LIME,LL,Sodas and mixers,Yellow,Green,house,
+BITTER_LEMON,BLEM,Sodas and mixers,Yellow,Black,house,
+KOMBUCHA,KOM,Sodas and mixers,Orange,Black,house,
+CITRUS_FIZZ,FIZZ,Sodas and mixers,Yellow,Black,house,
+KILOWATT_CITRUS,KW,Sodas and mixers,Black,Yellow,house,
+BIRCH_BEER,BRCH,Sodas and mixers,White,Brown,house,
+RED_BIRCH_BEER,RBCH,Sodas and mixers,Red,White,house,
+DIET_ROOT_BEER,DRB,Sodas and mixers,White,Brown,house,
+ROOT_BEER_FLOAT,RBF,Sodas and mixers,Brown,White,house,
+MUG_ROOT_BEER,MUG,Sodas and mixers,Brown,Yellow,house,
+CANE_COLA,CANE,Sodas and mixers,Red,White,house,
+DIET_CANE_COLA,DCANE,Sodas and mixers,White,Red,house,
+LIGHT_COLA,LCOLA,Sodas and mixers,White,Black,house,
+CHERRY_COLA,CCOLA,Sodas and mixers,Maroon,White,house,
+CHERRY_PEPPER_COLA,CPC,Sodas and mixers,Maroon,Yellow,house,
+BLACK_CHERRY,BCHR,Sodas and mixers,Black,White,house,
+CHERRY_CREAM,CHCR,Sodas and mixers,Pink,Maroon,house,
+ORANGE_AND_CREAM,O&C,Sodas and mixers,White,Orange,house,
+ORANGE_DREAMSICLE,DREAM,Sodas and mixers,Orange,White,house,
+GREEN_APPLE,GA,Sodas and mixers,Green,White,house,
+LEMONGRASS,LGR,Sodas and mixers,Yellow,Green,house,
+EAST_INDIA_TONIC,EIT,Sodas and mixers,White,Blue,house,
+COFFEE,JAVA,"Coffee, tea and milk",Black,White,house,
+COLD_BREW,CB,"Coffee, tea and milk",Black,White,house,
+ESPRESSO,ESP,"Coffee, tea and milk",Black,White,house,
+ICED_COFFEE,IC,"Coffee, tea and milk",Black,White,house,
+DECAF,DCAF,"Coffee, tea and milk",Orange,Black,house,
+NITRO,NITRO,"Coffee, tea and milk",Black,White,house,
+ICED_TEA,ITEA,"Coffee, tea and milk",Brown,White,house,
+SWEET_TEA,STEA,"Coffee, tea and milk",Brown,White,house,
+CHAI,CHAI,"Coffee, tea and milk",Brown,White,house,
+MILK,MILK,"Coffee, tea and milk",White,Blue,house,
+OAT_MILK,OAT,"Coffee, tea and milk",White,Brown,house,
+HORCHATA,HOR,"Coffee, tea and milk",White,Brown,house,
+LEMON_SWEET_TEA,LTEA,"Coffee, tea and milk",Brown,Yellow,house,
+UNSWEETENED_TEA,UTEA,"Coffee, tea and milk",White,Brown,house,
+PICKLE_JUICE,PJ,Juices and fruit,Green,White,house,
+OLIVE_JUICE,OLV,Juices and fruit,Green,White,house,
+BLOOD_ORANGE,BO,Juices and fruit,Red,White,house,
+PINK_LEMONADE,PL,Juices and fruit,Pink,Black,house,
+PASSION_FRUIT,PF,Juices and fruit,Orange,White,house,
+GUAVA,GUA,Juices and fruit,Pink,Black,house,
+BANANA,BAN,Juices and fruit,Yellow,Black,house,
+CLAMATO,CLAM,Juices and fruit,Red,White,house,
+COCONUT_CREAM,CC,Juices and fruit,White,Brown,house,
+BLUEBERRY,BLU,Juices and fruit,Blue,White,house,
+WATERMELON,WM,Juices and fruit,Pink,Black,house,
+KIWI,KIWI,Juices and fruit,Green,White,house,
+POMEGRANATE,POM,Juices and fruit,Maroon,White,house,
+LYCHEE,LYC,Juices and fruit,Pink,Black,house,
+YUZU,YUZU,Juices and fruit,Yellow,Black,house,
+CUCUMBER,CUC,Juices and fruit,Green,White,house,
+CUCUMBER_LIME,CL,Juices and fruit,Green,White,house,
+STRAWBERRY_LEMONADE,SLADE,Juices and fruit,Pink,Black,house,
+BERRY_LEMONADE,BLADE,Juices and fruit,Purple,White,house,
+BLUEBERRY_LEMONADE,BBL,Juices and fruit,Blue,Yellow,house,
+LEFT_COAST_LEMONADE,LCL,Juices and fruit,Yellow,Blue,house,
+CHERRY_LIMEADE,CLMD,Juices and fruit,Red,White,house,
+PINEAPPLE_CREAM,PC,Juices and fruit,Yellow,Black,house,
+SIMPLE_SYRUP,SYR,Syrups and flavours,White,Black,house,
+AGAVE,AGV,Syrups and flavours,Yellow,Black,house,
+HONEY,HNY,Syrups and flavours,Yellow,Black,house,
+HFCS_55,HFCS,Syrups and flavours,White,Black,house,
+GRENADINE,GREN,Syrups and flavours,Red,White,house,
+ORGEAT,ORGT,Syrups and flavours,White,Brown,house,
+FALERNUM,FAL,Syrups and flavours,Yellow,Brown,house,
+BITTERS,BIT,Syrups and flavours,Brown,White,house,
+MINT,MINT,Syrups and flavours,Green,White,house,
+BASIL,BAS,Syrups and flavours,Green,White,house,
+JALAPENO,JAL,Syrups and flavours,Green,White,house,
+SRIRACHA,SRI,Syrups and flavours,Red,White,house,
+HOT_SAUCE,HOTS,Syrups and flavours,Red,Yellow,house,
+VODKA,VOD,Spirits and liqueurs,White,Blue,house,
+GIN,GIN,Spirits and liqueurs,Blue,White,house,
+RUM,RUM,Spirits and liqueurs,White,Black,house,
+WHITE_RUM,WR,Spirits and liqueurs,White,Black,house,
+DARK_RUM,DR,Spirits and liqueurs,Brown,White,house,
+SPICED_RUM,SR,Spirits and liqueurs,Brown,White,house,
+TEQUILA,TEQ,Spirits and liqueurs,White,Black,house,
+MEZCAL,MEZ,Spirits and liqueurs,Black,White,house,
+WHISKEY,WSKY,Spirits and liqueurs,Brown,White,house,
+BOURBON,BRB,Spirits and liqueurs,Brown,White,house,
+SCOTCH,SCO,Spirits and liqueurs,Maroon,White,house,
+IRISH_WHISKEY,IW,Spirits and liqueurs,Green,White,house,
+BRANDY,BDY,Spirits and liqueurs,Brown,White,house,
+COGNAC,COG,Spirits and liqueurs,Brown,Yellow,house,
+PISCO,PSC,Spirits and liqueurs,Yellow,Black,house,
+CACHACA,CACH,Spirits and liqueurs,Green,White,house,
+SAKE,SAKE,Spirits and liqueurs,White,Black,house,
+SOJU,SOJU,Spirits and liqueurs,Green,White,house,
+CAMPARI,CAMP,Spirits and liqueurs,Red,Yellow,house,
+APEROL,APER,Spirits and liqueurs,Orange,White,house,
+VERMOUTH,VERM,Spirits and liqueurs,Maroon,White,house,
+DRY_VERMOUTH,DV,Spirits and liqueurs,White,Black,house,
+SWEET_VERMOUTH,SV,Spirits and liqueurs,Red,White,house,
+TRIPLE_SEC,TS,Spirits and liqueurs,Orange,White,house,
+COINTREAU,COIN,Spirits and liqueurs,Orange,White,house,
+CURACAO,CUR,Spirits and liqueurs,Blue,White,house,
+AMARETTO,AMAR,Spirits and liqueurs,Brown,White,house,
+KAHLUA,KAH,Spirits and liqueurs,Black,Yellow,house,
+BAILEYS,BLYS,Spirits and liqueurs,White,Brown,house,
+SAMBUCA,SAMB,Spirits and liqueurs,White,Black,house,
+ABSINTHE,ABS,Spirits and liqueurs,Green,White,house,
+CHARTREUSE,CHAR,Spirits and liqueurs,Yellow,Green,house,
+ST_GERMAIN,STG,Spirits and liqueurs,Yellow,Black,house,
+FERNET,FERN,Spirits and liqueurs,Black,White,house,
+JAGER,JAG,Spirits and liqueurs,Black,Orange,house,
+MIDORI,MID,Spirits and liqueurs,Green,White,house,
+CHAMBORD,CHAM,Spirits and liqueurs,Purple,White,house,
+LIMONCELLO,LIMC,Spirits and liqueurs,Yellow,Black,house,
+PROSECCO,PRO,Wine and beer,White,Green,house,
+CHAMPAGNE,CHMP,Wine and beer,Yellow,Black,house,
+WHITE_WINE,WW,Wine and beer,White,Black,house,
+RED_WINE,RW,Wine and beer,Maroon,White,house,
+ROSE,ROSE,Wine and beer,Pink,Black,house,
+BEER,BEER,Wine and beer,Yellow,Black,house,
+LAGER,LAG,Wine and beer,Yellow,Black,house,
+IPA,IPA,Wine and beer,Orange,White,house,
+STOUT,STOUT,Wine and beer,Black,White,house,
+CIDER,CIDER,Wine and beer,Green,White,house,
+HARD_SELTZER,HSEL,Wine and beer,White,Blue,house,
+MOJITO,MOJ,Cocktails,Green,White,house,
+DAIQUIRI,DAQ,Cocktails,Pink,Black,house,
+OLD_FASHIONED,OF,Cocktails,Brown,White,house,
+NEGRONI,NEG,Cocktails,Red,White,house,
+SPRITZ,SPZ,Cocktails,Orange,White,house,
+MULE,MULE,Cocktails,Brown,White,house,
+PALOMA,PAL,Cocktails,Pink,Black,house,
+COSMO,COS,Cocktails,Pink,Black,house,
+MANHATTAN,MAN,Cocktails,Maroon,White,house,
+MARTINI,MART,Cocktails,Grey,Black,house,
+SANGRIA,SANG,Cocktails,Maroon,White,house,
+CO2,CO2,Service,Grey,Black,house,
+SPARE,SPARE,Service,Grey,Black,house,
+CLEAN,CLN,Service,Blue,White,house,
+RINSE,RNS,Service,Blue,White,house,
+SPADE,♠,Symbols,White,Black,house,NotoEmoji-Bold.ttf
+HEART,♥,Symbols,White,Red,house,NotoEmoji-Bold.ttf
+DIAMOND_SUIT,♦,Symbols,White,Red,house,NotoEmoji-Bold.ttf
+CLUB,♣,Symbols,White,Black,house,NotoEmoji-Bold.ttf
+STAR,★,Symbols,Blue,White,house,NotoSansSymbols2-Regular.ttf
+STAR_OUTLINE,☆,Symbols,White,Blue,house,NotoSansSymbols2-Regular.ttf
+STAR_FOUR,✦,Symbols,White,Black,house,NotoSansSymbols2-Regular.ttf
+STAR_CIRCLED,✪,Symbols,Red,White,house,NotoSansSymbols2-Regular.ttf
+STAR_SIX,✶,Symbols,White,Black,house,NotoSansSymbols2-Regular.ttf
+STAR_EIGHT,✷,Symbols,White,Black,house,NotoSansSymbols2-Regular.ttf
+STAR_TWELVE,✹,Symbols,Yellow,Black,house,NotoSansSymbols2-Regular.ttf
+GLOWING_STAR,🌟,Symbols,Black,Yellow,house,NotoEmoji-Bold.ttf
+SPARKLES,✨,Symbols,Blue,White,house,NotoEmoji-Bold.ttf
+TRIANGLE,▲,Symbols,White,Black,house,NotoSansSymbols2-Regular.ttf
+TRIANGLE_DOWN,▼,Symbols,White,Black,house,NotoSansSymbols2-Regular.ttf
+SQUARE,■,Symbols,White,Black,house,NotoSansSymbols2-Regular.ttf
+SQUARE_OUTLINE,□,Symbols,White,Black,house,NotoSansSymbols2-Regular.ttf
+CIRCLE,●,Symbols,White,Black,house,NotoSansSymbols2-Regular.ttf
+CIRCLE_OUTLINE,○,Symbols,White,Black,house,NotoSansSymbols2-Regular.ttf
+DIAMOND_SHAPE,◆,Symbols,White,Black,house,NotoSansSymbols2-Regular.ttf
+PENTAGON,⬟,Symbols,White,Black,house,NotoSansSymbols2-Regular.ttf
+HEXAGON,⬢,Symbols,White,Black,house,NotoSansSymbols2-Regular.ttf
+CROSS_GREEK,✚,Symbols,White,Red,house,NotoSansSymbols2-Regular.ttf
+CROSS_LATIN,✝,Symbols,White,Black,house,NotoSansSymbols-Bold.ttf
+CROSS_MALTESE,✠,Symbols,Black,White,house,NotoSansSymbols-Bold.ttf
+CROSS_JERUSALEM,☩,Symbols,White,Black,house,NotoSansSymbols-Bold.ttf
+CROSS_ORTHODOX,☦,Symbols,White,Black,house,NotoSansSymbols-Bold.ttf
+CROSS_X,✖,Symbols,White,Black,house,NotoEmoji-Bold.ttf
+CROSS_MARK,❌,Symbols,White,Red,house,NotoEmoji-Bold.ttf
+CROSSED_SWORDS,⚔,Symbols,Grey,Black,house,NotoEmoji-Bold.ttf
+PEACE,☮,Symbols,White,Blue,house,NotoSansSymbols-Bold.ttf
+YIN_YANG,☯,Symbols,White,Black,house,NotoSansSymbols-Bold.ttf
+RECYCLE,♻,Symbols,White,Green,house,NotoEmoji-Bold.ttf
+ATOM,⚛,Symbols,Blue,White,house,NotoSansSymbols-Bold.ttf
+MALE,♂,Symbols,Blue,White,house,NotoEmoji-Bold.ttf
+FEMALE,♀,Symbols,Pink,Black,house,NotoEmoji-Bold.ttf
+MUSIC_NOTE,♪,Symbols,White,Black,house,NotoSansSymbols-Bold.ttf
+MUSIC_NOTES,♫,Symbols,White,Black,house,NotoSansSymbols-Bold.ttf
+SKULL_AND_CROSSBONES,☠,Symbols,Black,White,house,NotoEmoji-Bold.ttf
+RADIOACTIVE,☢,Symbols,Yellow,Black,house,NotoEmoji-Bold.ttf
+BIOHAZARD,☣,Symbols,Yellow,Black,house,NotoEmoji-Bold.ttf
+WARNING,⚠,Symbols,Yellow,Black,house,NotoEmoji-Bold.ttf
+LIGHTNING,⚡,Symbols,Black,Yellow,house,NotoEmoji-Bold.ttf
+FIRE,🔥,Symbols,White,Red,house,NotoEmoji-Bold.ttf
+DROPLET,💧,Symbols,White,Blue,house,NotoEmoji-Bold.ttf
+SNOWFLAKE,❄,Symbols,Blue,White,house,NotoEmoji-Bold.ttf
+SUN,☀,Symbols,Yellow,Black,house,NotoEmoji-Bold.ttf
+MOON,🌙,Symbols,Blue,White,house,NotoEmoji-Bold.ttf
+RED_HEART,❤,Symbols,Red,White,house,NotoSansSymbols2-Regular.ttf
+ANCHOR,⚓,Symbols,Blue,White,house,NotoEmoji-Bold.ttf
+CROWN,👑,Symbols,Yellow,Black,house,NotoEmoji-Bold.ttf
+GEM,💎,Symbols,White,Blue,house,NotoEmoji-Bold.ttf
+KEY,🔑,Symbols,White,Black,house,NotoEmoji-Bold.ttf
+DICE,🎲,Symbols,White,Black,house,NotoEmoji-Bold.ttf
+TARGET,🎯,Symbols,White,Red,house,NotoEmoji-Bold.ttf
+EIGHT_BALL,🎱,Symbols,White,Black,house,NotoEmoji-Bold.ttf
+GRINNING,😀,Faces,Yellow,Black,house,NotoEmoji-Bold.ttf
+SMILEY,🙂,Faces,Yellow,Black,house,NotoEmoji-Bold.ttf
+WINK,😉,Faces,Yellow,Black,house,NotoEmoji-Bold.ttf
+SUNGLASSES,😎,Faces,Yellow,Black,house,NotoEmoji-Bold.ttf
+TONGUE_OUT,😜,Faces,Yellow,Black,house,NotoEmoji-Bold.ttf
+ZANY,🤪,Faces,Yellow,Black,house,NotoEmoji-Bold.ttf
+TEARS_OF_JOY,😂,Faces,Yellow,Black,house,NotoEmoji-Bold.ttf
+HEART_EYES,😍,Faces,Yellow,Red,house,NotoEmoji-Bold.ttf
+PARTY,🥳,Faces,Yellow,Black,house,NotoEmoji-Bold.ttf
+WOOZY,🥴,Faces,Yellow,Black,house,NotoEmoji-Bold.ttf
+NAUSEATED,🤢,Faces,Green,White,house,NotoEmoji-Bold.ttf
+SURPRISED,😮,Faces,Yellow,Black,house,NotoEmoji-Bold.ttf
+ANGRY,😠,Faces,Red,White,house,NotoEmoji-Bold.ttf
+COWBOY,🤠,Faces,Yellow,Black,house,NotoEmoji-Bold.ttf
+DEVIL,😈,Faces,Purple,White,house,NotoEmoji-Bold.ttf
+CLOWN,🤡,Faces,White,Red,house,NotoEmoji-Bold.ttf
+ALIEN,👽,Faces,Green,White,house,NotoEmoji-Bold.ttf
+GHOST,👻,Faces,White,Black,house,NotoEmoji-Bold.ttf
+SKULL,💀,Faces,Black,White,house,NotoEmoji-Bold.ttf
+ROBOT,🤖,Faces,Grey,Black,house,NotoEmoji-Bold.ttf
+PILE_OF_POO,💩,Faces,Brown,White,house,NotoEmoji-Bold.ttf
+THUMBS_UP,👍,Faces,White,Black,house,NotoEmoji-Bold.ttf
+OK_HAND,👌,Faces,White,Black,house,NotoEmoji-Bold.ttf
+DEER,🦌,Animals,Brown,White,house,NotoEmoji-Bold.ttf
+T_REX,🦖,Animals,Green,White,house,NotoEmoji-Bold.ttf
+SAUROPOD,🦕,Animals,Green,White,house,NotoEmoji-Bold.ttf
+DRAGON,🐉,Animals,Red,White,house,NotoEmoji-Bold.ttf
+DOG,🐶,Animals,White,Brown,house,NotoEmoji-Bold.ttf
+CAT,🐱,Animals,White,Black,house,NotoEmoji-Bold.ttf
+MOUSE,🐭,Animals,Grey,Black,house,NotoEmoji-Bold.ttf
+RABBIT,🐰,Animals,White,Black,house,NotoEmoji-Bold.ttf
+FOX,🦊,Animals,Orange,White,house,NotoEmoji-Bold.ttf
+BEAR,🐻,Animals,Brown,White,house,NotoEmoji-Bold.ttf
+PANDA,🐼,Animals,White,Black,house,NotoEmoji-Bold.ttf
+KOALA,🐨,Animals,Grey,Black,house,NotoEmoji-Bold.ttf
+TIGER,🐯,Animals,Orange,Black,house,NotoEmoji-Bold.ttf
+LION_ICON,🦁,Animals,Yellow,Brown,house,NotoEmoji-Bold.ttf
+COW,🐮,Animals,White,Black,house,NotoEmoji-Bold.ttf
+PIG,🐷,Animals,Pink,Black,house,NotoEmoji-Bold.ttf
+FROG,🐸,Animals,Green,White,house,NotoEmoji-Bold.ttf
+MONKEY,🐵,Animals,Brown,White,house,NotoEmoji-Bold.ttf
+CHICKEN,🐔,Animals,White,Red,house,NotoEmoji-Bold.ttf
+PENGUIN,🐧,Animals,White,Black,house,NotoEmoji-Bold.ttf
+BIRD,🐦,Animals,Blue,White,house,NotoEmoji-Bold.ttf
+DUCK,🦆,Animals,Yellow,Black,house,NotoEmoji-Bold.ttf
+OWL,🦉,Animals,Brown,White,house,NotoEmoji-Bold.ttf
+EAGLE,🦅,Animals,Brown,White,house,NotoEmoji-Bold.ttf
+FLAMINGO,🦩,Animals,Pink,Black,house,NotoEmoji-Bold.ttf
+PARROT,🦜,Animals,Green,White,house,NotoEmoji-Bold.ttf
+UNICORN,🦄,Animals,Purple,White,house,NotoEmoji-Bold.ttf
+HORSE,🐴,Animals,Brown,White,house,NotoEmoji-Bold.ttf
+LLAMA,🦙,Animals,White,Brown,house,NotoEmoji-Bold.ttf
+GOAT,🐐,Animals,White,Black,house,NotoEmoji-Bold.ttf
+WOLF,🐺,Animals,Grey,Black,house,NotoEmoji-Bold.ttf
+BOAR,🐗,Animals,Brown,White,house,NotoEmoji-Bold.ttf
+ELEPHANT,🐘,Animals,Grey,Black,house,NotoEmoji-Bold.ttf
+GIRAFFE,🦒,Animals,Yellow,Brown,house,NotoEmoji-Bold.ttf
+ZEBRA,🦓,Animals,White,Black,house,NotoEmoji-Bold.ttf
+KANGAROO,🦘,Animals,Orange,White,house,NotoEmoji-Bold.ttf
+SLOTH,🦥,Animals,Brown,White,house,NotoEmoji-Bold.ttf
+HEDGEHOG,🦔,Animals,Brown,White,house,NotoEmoji-Bold.ttf
+BAT,🦇,Animals,Black,White,house,NotoEmoji-Bold.ttf
+TURTLE,🐢,Animals,Green,White,house,NotoEmoji-Bold.ttf
+SNAKE,🐍,Animals,Green,White,house,NotoEmoji-Bold.ttf
+LIZARD,🦎,Animals,Green,White,house,NotoEmoji-Bold.ttf
+OCTOPUS,🐙,Animals,Purple,White,house,NotoEmoji-Bold.ttf
+SQUID,🦑,Animals,Pink,Black,house,NotoEmoji-Bold.ttf
+CRAB,🦀,Animals,Red,White,house,NotoEmoji-Bold.ttf
+FISH,🐟,Animals,Blue,White,house,NotoEmoji-Bold.ttf
+DOLPHIN,🐬,Animals,Blue,White,house,NotoEmoji-Bold.ttf
+WHALE,🐳,Animals,Blue,White,house,NotoEmoji-Bold.ttf
+SHARK,🦈,Animals,Grey,Black,house,NotoEmoji-Bold.ttf
+BEE,🐝,Insects,Yellow,Black,house,NotoEmoji-Bold.ttf
+CATERPILLAR,🐛,Insects,Green,White,house,NotoEmoji-Bold.ttf
+BUTTERFLY,🦋,Insects,Blue,White,house,NotoEmoji-Bold.ttf
+SNAIL,🐌,Insects,White,Brown,house,NotoEmoji-Bold.ttf
+LADYBUG,🐞,Insects,Red,Black,house,NotoEmoji-Bold.ttf
+ANT,🐜,Insects,White,Black,house,NotoEmoji-Bold.ttf
+CRICKET,🦗,Insects,Green,White,house,NotoEmoji-Bold.ttf
+SPIDER,🕷,Insects,White,Black,house,NotoEmoji-Bold.ttf
+SPIDER_WEB,🕸,Insects,Black,White,house,NotoEmoji-Bold.ttf
+SCORPION,🦂,Insects,Orange,Black,house,NotoEmoji-Bold.ttf
+MOSQUITO,🦟,Insects,White,Black,house,NotoEmoji-Bold.ttf
+BEETLE,🪲,Insects,Green,White,house,NotoEmoji-Bold.ttf
+FLY,🪰,Insects,White,Black,house,NotoEmoji-Bold.ttf
+WORM,🪱,Insects,Pink,Black,house,NotoEmoji-Bold.ttf
+COCKROACH,🪳,Insects,Brown,White,house,NotoEmoji-Bold.ttf
+CANNABIS,,Plants,Green,White,house,fa-solid-900.ttf
+LEAF,,Plants,Green,White,house,fa-solid-900.ttf
+FOUR_LEAF_CLOVER,🍀,Plants,White,Green,house,NotoEmoji-Bold.ttf
+SHAMROCK,☘,Plants,Green,White,house,NotoEmoji-Bold.ttf
+MAPLE_LEAF,🍁,Plants,Red,White,house,NotoEmoji-Bold.ttf
+FALLEN_LEAF,🍂,Plants,Orange,White,house,NotoEmoji-Bold.ttf
+LEAVES,🍃,Plants,White,Green,house,NotoEmoji-Bold.ttf
+HERB,🌿,Plants,White,Green,house,NotoEmoji-Bold.ttf
+SEEDLING,🌱,Plants,White,Green,house,NotoEmoji-Bold.ttf
+CACTUS,🌵,Plants,Green,White,house,NotoEmoji-Bold.ttf
+PINE_TREE,🌲,Plants,Green,White,house,NotoEmoji-Bold.ttf
+PALM_TREE,🌴,Plants,White,Green,house,NotoEmoji-Bold.ttf
+BLOSSOM,🌸,Plants,Pink,Black,house,NotoEmoji-Bold.ttf
+SUNFLOWER,🌻,Plants,Yellow,Black,house,NotoEmoji-Bold.ttf
+ROSE_FLOWER,🌹,Plants,White,Red,house,NotoEmoji-Bold.ttf
+TULIP,🌷,Plants,White,Red,house,NotoEmoji-Bold.ttf
+MUSHROOM,🍄,Plants,Red,White,house,NotoEmoji-Bold.ttf
+LEMON_ICON,🍋,Fun,Yellow,Black,house,NotoEmoji-Bold.ttf
+CHERRIES,🍒,Fun,White,Red,house,NotoEmoji-Bold.ttf
+STRAWBERRY_ICON,🍓,Fun,White,Red,house,NotoEmoji-Bold.ttf
+ORANGE_ICON,🍊,Fun,Orange,White,house,NotoEmoji-Bold.ttf
+WATERMELON_ICON,🍉,Fun,Green,White,house,NotoEmoji-Bold.ttf
+PINEAPPLE_ICON,🍍,Fun,Yellow,Black,house,NotoEmoji-Bold.ttf
+COCONUT_ICON,🥥,Fun,Brown,White,house,NotoEmoji-Bold.ttf
+AVOCADO,🥑,Fun,Green,White,house,NotoEmoji-Bold.ttf
+CHILI,🌶,Fun,White,Red,house,NotoEmoji-Bold.ttf
+BEER_MUG,🍺,Fun,Yellow,Black,house,NotoEmoji-Bold.ttf
+WINE_GLASS,🍷,Fun,Maroon,White,house,NotoEmoji-Bold.ttf
+COCKTAIL_GLASS,🍸,Fun,White,Black,house,NotoEmoji-Bold.ttf
+TROPICAL_DRINK,🍹,Fun,Orange,White,house,NotoEmoji-Bold.ttf
+TUMBLER,🥃,Fun,Brown,White,house,NotoEmoji-Bold.ttf
+BOTTLE_POPPING,🍾,Fun,Green,White,house,NotoEmoji-Bold.ttf
+ICE_CUBE,🧊,Fun,Blue,White,house,NotoEmoji-Bold.ttf
+HOT_BEVERAGE,☕,Fun,Brown,White,house,NotoEmoji-Bold.ttf
+TEACUP,🍵,Fun,Green,White,house,NotoEmoji-Bold.ttf
+ROCKET,🚀,Fun,White,Black,house,NotoEmoji-Bold.ttf
+UFO,🛸,Fun,Grey,Black,house,NotoEmoji-Bold.ttf
+GUITAR,🎸,Fun,Red,White,house,NotoEmoji-Bold.ttf
+PUMPKIN,🎃,Fun,Orange,Black,house,NotoEmoji-Bold.ttf
+CHRISTMAS_TREE,🎄,Fun,Green,White,house,NotoEmoji-Bold.ttf
+SNOWMAN,⛄,Fun,Blue,White,house,NotoEmoji-Bold.ttf
+MONEY_BAG,💰,Fun,Green,White,house,NotoEmoji-Bold.ttf
+TROPHY,🏆,Fun,Yellow,Black,house,NotoEmoji-Bold.ttf

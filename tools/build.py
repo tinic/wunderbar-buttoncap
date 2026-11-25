@@ -116,6 +116,17 @@ def layout(label, font, cfg):
     return best
 
 
+def symbol_layout(label, font, cfg):
+    """A label in its own font (a symbol): centred on its outline, as large as fits.
+    Returns the capital height and the text's `at` point that centres the outline."""
+    x0, x1, y0, y1 = textfit.extents(label, font, 1.0)
+    a = textfit.advance(label, font) / 2
+    # SolidCraft puts a centred, "middle" line with its capital top at +0.5 and baseline at -0.5.
+    cx, cy = (x0 + x1) / 2 - a, (y0 + y1) / 2 - 0.5
+    h = min(cfg.get("symbol_h_max", 50.0), corner_scale((x1 - x0) / 2, (y1 - y0) / 2, cfg))
+    return h, [round(-cx * h, 4), round(-cy * h, 4)], ((x1 - x0) * h, (y1 - y0) * h)
+
+
 def run(args):
     r = subprocess.run(args, stdin=subprocess.DEVNULL, capture_output=True, text=True)
     if r.returncode != 0:
@@ -133,13 +144,16 @@ def cap_key(row, cfg, design, font):
     for p in (design, font, textfit.__file__, threemf.__file__):
         h.update(open(p, "rb").read())
     inputs = {k: row[k] for k in ("file", "label", "cap", "letter")}
+    if row.get("font"):
+        inputs["font"] = row["font"]
+        h.update(open(os.path.join(ROOT, "fonts", row["font"]), "rb").read())
     h.update(json.dumps([BUILD_VERSION, inputs, cfg], sort_keys=True).encode())
     return h.hexdigest()
 
 
 def build_one(row, kind, cfg, force):
     design = os.path.join(ROOT, cfg["design"])
-    font = os.path.join(ROOT, cfg["font"])
+    font = os.path.join(ROOT, "fonts", row["font"]) if row.get("font") else os.path.join(ROOT, cfg["font"])
     out3 = os.path.join(BUILD, kind, "3mf", row["file"] + ".3mf")
     outp = os.path.join(BUILD, kind, "preview", row["file"] + ".png")
     meta = os.path.join(BUILD, kind, "meta", row["file"] + ".json")
@@ -148,12 +162,18 @@ def build_one(row, kind, cfg, force):
         m = json.load(open(meta))
         if m.get("key") == key:
             return dict(m, skipped=True)
-    lines, h = layout(row["label"], font, cfg)
+    text = {"link": cfg["text_link"], "font": font, "line_spacing": cfg["line_spacing"]}
+    size = None
+    if row.get("font"):
+        h, at, size = symbol_layout(row["label"], font, cfg)
+        lines = [row["label"]]
+        text.update(text=row["label"], height=round(h, 3), at=at)
+    else:
+        lines, h = layout(row["label"], font, cfg)
+        text.update(text="\n".join(lines), height=round(h, 3))
     script = [
         {"command": "sketch.edit", "params": {"sketch": cfg["sketch"]}},
-        {"command": "sketch.edit_text", "params": {
-            "link": cfg["text_link"], "font": font, "text": "\n".join(lines),
-            "height": round(h, 3), "line_spacing": cfg["line_spacing"]}},
+        {"command": "sketch.edit_text", "params": text},
         {"command": "sketch.finish", "params": {}},
     ]
     os.makedirs(os.path.join(BUILD, "tmp"), exist_ok=True)
@@ -174,9 +194,16 @@ def build_one(row, kind, cfg, force):
             snap += ["--body", "%s:color=%s" % (b["name"], COLOURS.get(colour, "#cccccc"))]
         run(snap)
     lab = [b for b in bodies if b["name"].startswith("Label")]
+    if size:
+        # The label's outline as built must match the one the fit assumed.
+        bw = max(b["bbox"]["max"][0] for b in lab) - min(b["bbox"]["min"][0] for b in lab)
+        bd = max(b["bbox"]["max"][1] for b in lab) - min(b["bbox"]["min"][1] for b in lab)
+        if abs(bw - size[0]) > 0.15 or abs(bd - size[1]) > 0.15:
+            raise RuntimeError("%s: built outline %.2f x %.2f mm, expected %.2f x %.2f" % (
+                row["file"], bw, bd, size[0], size[1]))
     m = dict(file=row["file"], label=row["label"], cap=row["cap"], letter=row["letter"],
              source=row.get("source", ""), lines=lines, cap_height_mm=round(h, 2),
-             stem_mm=round(textfit.stem(font, h), 2),
+             stem_mm=round(textfit.stem(font, h), 2) if not row.get("font") else None,
              label_mm3=round(sum(b["volume_mm3"] for b in lab), 3), key=key)
     json.dump(m, open(meta, "w"), indent=1)
     return m
