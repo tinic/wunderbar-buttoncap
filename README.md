@@ -129,6 +129,7 @@ You need:
 | `make docs` | The preview sheets in `docs/` and the "All caps" section of this README |
 | `make dist VERSION=v0.2.0` | `dist/wunderbar-buttoncap-v0.2.0.zip` |
 | `make release VERSION=v0.2.0` | A draft GitHub release with the archive. Write `RELEASE_NOTES.md` first. |
+| `tools/plate.py plates/readme-photo.json build/readme-photo.3mf` | A Bambu Studio project with the caps of the plate spec, each part set to its filament slot |
 | `make clean` | Removes `build/` and `dist/` |
 
 `make` makes a Python virtual environment in `.venv`. It builds only the caps whose label, colours,

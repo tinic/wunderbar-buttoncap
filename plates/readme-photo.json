@@ -1,0 +1,11 @@
+{
+  "bed": [330, 320],
+  "filaments": {"Red": 1, "White": 2, "Green": 3, "Grey": 4, "Blue": 6, "Black": 7},
+  "row_gap": 6,
+  "rows": [
+    {"type": "round", "pitch": 15, "caps": ["COKE", "SPRITE", "DIET", "PEPSI", "7UP"]},
+    {"type": "round", "pitch": 15, "caps": ["PICKLE_JUICE", "COFFEE", "GIN", "CRAN", "TONIC"]},
+    {"type": "round", "pitch": 15, "caps": ["A", "TEA", "ZERO", "MARG", "CO2"]},
+    {"type": "long", "pitch": 26, "caps": ["VODKA", "SODA", "WATER", "GIN"]}
+  ]
+}
