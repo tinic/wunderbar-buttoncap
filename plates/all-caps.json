@@ -39,5 +39,6 @@
       "caps": "all"
     }
   ],
-  "split_by": "letter"
+  "split_by": "letter",
+  "project_settings": "plates/bambu/h3c-multi-diameter.json"
 }

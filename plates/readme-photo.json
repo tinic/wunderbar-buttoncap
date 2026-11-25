@@ -60,5 +60,6 @@
   "letter_filaments": {
     "White": 3,
     "Black": 8
-  }
+  },
+  "project_settings": "plates/bambu/h3c-multi-diameter.json"
 }

@@ -24,7 +24,12 @@ cap of that type, in labels CSV order, over as many rows as it takes.
 leaves dark letters on a dark cap (or the same colour), the letters become White, or
 Black on a white cap.
 
-"split_by": "letter" writes one project per letter colour: OUT-<colour>.3mf.
+"split_by": "letter" writes one project per letter colour: OUT-<colour>-letters.3mf.
+
+"project_settings": "plates/bambu/h3c-multi-diameter.json" embeds a Bambu Studio
+project_settings.config (printer, process, filaments, nozzle map; see docs/bambu-3mf.md),
+so the project opens with those settings. Its filament list must match "filaments".
+Without it, Bambu Studio loads the geometry only and keeps its current settings.
 
 "max_triangles": {"round": [5000, 3000], "long": [8000, 3000]} simplifies each Cap and
 Label mesh to at most that many triangles (the default). A part whose volume would change
@@ -72,7 +77,7 @@ def load_parts(path, targets):
     return parts
 
 
-def write(placed, out, bed, gap):
+def write(placed, out, bed, gap, settings=None):
     """Centre the rows on the bed (first row at the back) and write the project 3MF."""
     bed_w, bed_d = bed
     depths = [max(i["d"] for i in items) for _, items in placed]
@@ -145,6 +150,8 @@ def write(placed, out, bed, gap):
                    '</Relationships>')
         z.writestr("3D/3dmodel.model", "\n".join(model))
         z.writestr("Metadata/model_settings.config", config)
+        if settings:
+            z.writestr("Metadata/project_settings.config", settings)
     caps = [it for _, items in placed for it in items]
     tris = sum(len(it["parts"][p][1]) for it in caps for p in ("Cap", "Label"))
     used = Counter("%s/%s" % it["colours"] for it in caps)
@@ -162,6 +169,13 @@ def main():
     cmap = spec.get("colour_map", {})
     dark = set(spec.get("dark_colours", ["Red", "Green", "Blue", "Black"]))
     max_tris = spec.get("max_triangles", MAX_TRIANGLES)
+    settings = None
+    if spec.get("project_settings"):
+        settings = open(os.path.join(ROOT, spec["project_settings"])).read()
+        colours_n = len(json.loads(settings).get("filament_colour", []))
+        if colours_n < max(list(slots.values()) + list(letter_slots.values())):
+            sys.exit("%s has %d filaments; the spec uses slot %d" % (
+                spec["project_settings"], colours_n, max(list(slots.values()) + list(letter_slots.values()))))
 
     def colours(cap, letter):
         cap, letter = cmap.get(cap, cap), cmap.get(letter, letter)
@@ -202,9 +216,9 @@ def main():
         groups = list(dict.fromkeys(it["colours"][1] for _, items in defs for it in items))
         for g in groups:
             write(rows_of(lambda it: it["colours"][1] == g), "%s-%s-letters.3mf" % (base, g.lower()),
-                  spec["bed"], gap)
+                  spec["bed"], gap, settings)
     else:
-        write(rows_of(lambda it: True), out, spec["bed"], gap)
+        write(rows_of(lambda it: True), out, spec["bed"], gap, settings)
 
 
 if __name__ == "__main__":
