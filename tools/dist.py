@@ -22,9 +22,8 @@ Label part the letter colour and the Cap part the cap colour. The label is a
 0.4 mm inlay flush with the face.
 
 Fits Wunder-Bar M4 bar guns:
-  round/         round button caps (as PH10-74-xxx)
-  long/          long button PH10-76
-  long-ph10-32/  long button PH10-76 with the two snap pins for PH10-32
+  round/  round button caps (as PH10-74-xxx)
+  long/   long button caps
 
 The caps (3MF files and previews) are licensed under CERN-OHL-P-2.0
 (LICENSE-CERN-OHL-P.txt). Product names on the labels are trademarks of their

@@ -25,19 +25,6 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BUILD = os.path.join(ROOT, "build")
 
 # One entry per cap type. "labels" names the labels CSV when it is not <type>.csv.
-LONG = dict(
-    sketch="LabelSketch",
-    text_link="j1",
-    font="fonts/Anton-Regular.ttf",
-    # The face is a stadium: two R2.4 ends 12.472 mm apart. Each line's box corners
-    # stay 0.4 mm inside it.
-    fit_stadium=[6.236, 2.0],
-    h_max=3.6,
-    line_spacing=0.62,
-    two_line_gain=1.12,
-    camera={"target": [0, 0, 2.5], "yaw": 3.14159, "pitch": -1.2, "distance": 36},
-    labels="long",
-)
 CAP_TYPES = {
     "round": dict(
         design="cad/round/GunCap.sc",
@@ -50,10 +37,20 @@ CAP_TYPES = {
         two_line_gain=1.12, # two lines only when the letters get this much bigger
         camera={"target": [0, 0, 1.6], "yaw": 3.14159, "pitch": -0.95, "distance": 26},
     ),
-    # Wunder-Bar long button PH10-76.
-    "long": dict(LONG, design="cad/long/LongCap.sc"),
-    # The same cap with the two snap pins for PH10-32.
-    "long-ph10-32": dict(LONG, design="cad/long-ph10-32/LongCap.sc"),
+    # Wunder-Bar long button cap, 20.32 x 8.26 mm.
+    "long": dict(
+        design="cad/long/LongCap.sc",
+        sketch="LabelSketch",
+        text_link="j1",
+        font="fonts/Anton-Regular.ttf",
+        # The flat face is about 19.8 x 5.76 mm with round ends. Each line's box corners
+        # stay 0.4 mm inside it: a stadium of two R2.48 ends 14.06 mm apart.
+        fit_stadium=[7.03, 2.48],
+        h_max=4.2,
+        line_spacing=0.62,
+        two_line_gain=1.12,
+        camera={"target": [0, 0, 2.0], "yaw": 3.14159, "pitch": -1.1, "distance": 36},
+    ),
 }
 
 COLOURS = {

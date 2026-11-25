@@ -11,7 +11,7 @@ A bar gun has a row of buttons, one for each drink. This project makes replaceme
 - **Round caps** (10 mm) with a short code for the drink, such as PJ for pickle juice or JAVA for coffee.
   There are caps for every label in the commercial Wunder-Bar catalogue, and for many more drinks:
   spirits, juices, syrups, cocktails.
-- **Long caps** (20 x 7.6 mm) for the long button, with a full word such as VODKA or SODA.
+- **Long caps** (20.3 x 8.3 mm) for the long button, with a full word such as VODKA or SODA.
 
 Each cap is a two-colour print. The label is a 0.4 mm inlay, flush with the face, so it does not wear off.
 
@@ -34,8 +34,7 @@ Tips:
 - The caps keep the colours of the original Wunder-Bar caps where there is one: for example, COKE is a
   red cap with white letters. Other caps are white with black letters. Use any colours you like.
 - The round cap snaps onto the button. The bore has two key flats and a snap rib.
-- The long cap comes in two versions: `long/` for the PH10-76 button, and `long-ph10-32/` with the two
-  snap pins for PH10-32.
+- The long cap snaps onto the long button. Its back pocket has a snap ridge along both long walls.
 
 ## All caps
 
@@ -108,14 +107,13 @@ Tips:
 | Type | Fits | Status |
 |---|---|---|
 | `round` | Wunder-Bar round button caps (PH10-74-xxx), 10 mm | Available |
-| `long` | Wunder-Bar long button (PH10-76), 20.32 x 7.62 mm | Available |
-| `long-ph10-32` | The long button with the two snap pins for PH10-32 | Available |
+| `long` | Wunder-Bar long button, 20.32 x 8.26 mm | Available |
 
 ## Request a label
 
 Open an issue with the text you want, or add a row to `labels/round.csv` or `labels/long.csv` in a
 pull request. On a round cap, use a short code: 2 to 4 characters give letters of 3.5 mm or more.
-A long cap takes a word of up to about 7 characters at 3.6 mm.
+A long cap takes a word of up to 5 characters at 4.2 mm, and up to 9 characters at about 3.7 mm.
 
 ## Build
 
@@ -177,11 +175,11 @@ Z = 0 and the cap extends to +Z.
 | `label_depth` | 0.4 | Label inlay depth |
 | `label_h`, `Label` | 7, B | Label capital height and text (the build sets both for each label) |
 
-`cad/long/LongCap.sc` and `cad/long-ph10-32/LongCap.sc` hold the long cap: the exact shape of the two
-configurations of the original SolidWorks part (PH10-76, and PH10-76 with the PH10-32 snap pins), read
-with [Dutchman](https://github.com/dutchman-cad/dutchman). The face is turned down onto Z = 0, and the
-label features are the same as on the round cap. The face is a 17.27 x 4.8 mm stadium; each label line
-stays 0.4 mm inside it, up to 3.6 mm capital height.
+`cad/long/LongCap.sc` is the long cap, also made from the original SolidWorks part (`GunCapLarge`), with
+the parameters `cap_l`, `cap_w`, `cap_h`, `pocket_l`, `pocket_w`, `pocket_d`, `face_r`, `back_r`,
+`mouth_r`, `label_depth`, `label_h` and `Label`. Its volume with a "VODKA" label agrees with the original
+to 0.3%. The four corners of the face are simpler than in the original: the S-shaped flare of the long
+sides meets the rounded ends at an edge, not a blend. The face outline is the same.
 
 The designs use SolidCraft's built-in font, so they open on any computer. The build sets the label font,
 [Anton](https://github.com/googlefonts/AntonFont).

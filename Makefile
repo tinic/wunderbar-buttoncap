@@ -5,8 +5,7 @@
 #   make docs       docs/<type>-<group>.jpg and the "All caps" part of README.md
 #   make dist VERSION=v0.1.0
 #   make release VERSION=v0.1.0   (draft GitHub release with the archive)
-TYPES   ?= round long long-ph10-32
-# Types with a section in README.md (long-ph10-32 looks the same as long from the face).
+TYPES   ?= round long
 DOC_TYPES ?= round long
 VERSION ?= dev
 PYTHON  ?= .venv/bin/python
