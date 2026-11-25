@@ -1,6 +1,4 @@
-Fixes the long button caps: v0.4.0 used the wrong part.
+Much smaller files: the archive is 46 MB instead of 167 MB.
 
-- `long/`: 26 caps for the Wunder-Bar long button, 20.32 x 8.26 mm, made from the `GunCapLarge` part: SODA, WATER, CLUB SODA, VODKA, GIN, TEQUILA, TONIC and more. The word is a 0.4 mm inlay on the face, up to 4.2 mm high.
-- The `long-ph10-32/` caps of v0.4.0 are gone: that was a different part.
-- `round/`: the 254 round caps, unchanged.
-- Open `round/index.html` or `long/index.html` in the archive to see every cap.
+- Each cap's mesh is simplified from about 44 000 triangles to 8 000 (round) or 11 000 (long). The surface moves at most 0.012 mm on a round cap, 0.024 mm on a long cap and 0.004 mm on the letters, far below what a printer can show. Slicers load a full plate of caps much faster.
+- Same 254 round and 26 long caps as v0.5.0.

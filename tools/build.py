@@ -36,6 +36,7 @@ CAP_TYPES = {
         line_spacing=0.62,  # times the font's line distance
         two_line_gain=1.12, # two lines only when the letters get this much bigger
         camera={"target": [0, 0, 1.6], "yaw": 3.14159, "pitch": -0.95, "distance": 26},
+        max_triangles={"Cap": 5000, "Label": 3000},
     ),
     # Wunder-Bar long button cap, 20.32 x 8.26 mm.
     "long": dict(
@@ -50,6 +51,7 @@ CAP_TYPES = {
         line_spacing=0.62,
         two_line_gain=1.12,
         camera={"target": [0, 0, 2.0], "yaw": 3.14159, "pitch": -1.1, "distance": 36},
+        max_triangles={"Cap": 8000, "Label": 3000},
     ),
 }
 
@@ -162,7 +164,8 @@ def build_one(row, kind, cfg, force):
         mj = os.path.join(tmp, "measure.json")
         run(["solidcraft-cli", "run", sp, "--in", design, "--out", raw, "--json-out", mj, "--quiet"])
         bodies = json.load(open(mj))["bodies"]
-        threemf.merge(raw, out3, row["file"], {"Cap": row["cap"], "Label": row["letter"]})
+        threemf.merge(raw, out3, row["file"], {"Cap": row["cap"], "Label": row["letter"]},
+                      cfg.get("max_triangles"))
         snap = ["solidcraft-cli", "snapshot", sp, "--in", design, "--out", outp,
                 "--camera", json.dumps(cfg["camera"]), "--width", "480", "--height", "480",
                 "--no-grid", "--no-axes", "--transparent", "--quality", "fine"]

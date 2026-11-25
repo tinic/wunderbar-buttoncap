@@ -132,7 +132,8 @@ You need:
 | `tools/plate.py plates/readme-photo.json build/readme-photo.3mf` | A Bambu Studio project with the caps of the plate spec, each part set to its filament slot |
 | `make clean` | Removes `build/` and `dist/` |
 
-`make` makes a Python virtual environment in `.venv`. It builds only the caps whose label, colours,
+Each 3MF mesh is simplified to 8 000 triangles (round) or 11 000 (long), at most 0.024 mm from the exact
+shape. `make` makes a Python virtual environment in `.venv`. It builds only the caps whose label, colours,
 design or font changed. `tools/build.py --force` builds all caps again.
 
 The builds run on a local computer: SolidCraft is not available on the CI runners.
