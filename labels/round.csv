@@ -1,0 +1,256 @@
+file,label,cap,letter,source
+1,1,White,Black,wunderbar
+2,2,White,Black,wunderbar
+A,A,Green,White,wunderbar
+B,B,Brown,White,wunderbar
+C,C,White,Black,wunderbar
+D,D,White,Black,wunderbar
+F,F,White,Black,wunderbar
+G,G,Green,White,wunderbar
+J,J,White,Black,wunderbar
+L,L,Yellow,Black,wunderbar
+M,M,White,Black,wunderbar
+O,O,White,Black,wunderbar
+P,P,Yellow,Black,wunderbar
+Q,Q,White,Black,wunderbar
+R,R,White,Black,wunderbar
+S,S,White,Black,wunderbar
+T,T,Brown,White,wunderbar
+V,V,White,Black,wunderbar
+W,W,Pink,Black,wunderbar
+BB,BB,White,Black,wunderbar
+BL,BL,Blue,White,wunderbar
+CR,CR,Red,White,wunderbar
+DC,DC,White,Black,wunderbar
+GF,GF,Yellow,Black,wunderbar
+HO,HO,Orange,White,wunderbar
+MY,MY,Yellow,Black,wunderbar
+OJ,OJ,Orange,Black,wunderbar
+RC,RC,Blue,White,wunderbar
+SQ,SQ,White,Black,wunderbar
+SS,SS,White,Black,wunderbar
+TR,TR,Yellow,Black,wunderbar
+AMP,AMP,White,Black,wunderbar
+APPLE,APPLE,Orange,Black,wunderbar
+BAM,BAM!,Red,White,wunderbar
+BANZAI,BANZAI,Red,Yellow,wunderbar
+BMARY,BMARY,Brown,White,wunderbar
+BULL,BULL,Black,White,wunderbar
+CHERRY,CHERRY,Red,White,wunderbar
+COCO,COCO,White,Black,wunderbar
+COKE,COKE,Red,White,wunderbar
+COLA,COLA,White,Black,wunderbar
+COLLINS,COLLINS,Black,White,wunderbar
+CRAN,CRAN,Red,White,wunderbar
+CREAM,CREAM,Orange,Black,wunderbar
+7UP,7UP,Green,White,wunderbar
+D7UP,D7UP,Green,White,wunderbar
+DIET,DIET,Blue,White,wunderbar
+DIETE,DIETE,White,Black,wunderbar
+DOC,DOC,Black,White,wunderbar
+D_PEP,D PEP,Blue,White,wunderbar
+DR_P,DR P,Brown,White,wunderbar
+DT_DRP,DT DRP,White,Burgundy,wunderbar
+DT_DEW,DT DEW,Green,White,wunderbar
+ENERGY,ENERGY,White,Black,wunderbar
+FRESCA,FRESCA,Blue,Black,wunderbar
+FUEL,FUEL,Red,White,wunderbar
+GALE,GALE,Green,White,wunderbar
+GATOR,GATOR,White,Black,wunderbar
+GBEER,GBEER,Brown,White,wunderbar
+GINGER,GINGER,Green,White,wunderbar
+GRAPE,GRAPE,Purple,White,wunderbar
+GRPFT,GRPFT,White,Black,wunderbar
+LADE,LADE,White,Black,wunderbar
+LEGEND,LEGEND,Purple,Yellow,wunderbar
+LEM,LEM,Blue,White,wunderbar
+LEMON,LEMON,White,Black,wunderbar
+LIME,LIME,Green,Black,wunderbar
+LION,LION,Yellow,Black,wunderbar
+MANGO,MANGO,Orange,Black,wunderbar
+MARG,MARG,White,Black,wunderbar
+MAX,MAX,Black,White,wunderbar
+MTDEW,MTDEW,Yellow,Black,wunderbar
+NECTAR,NECTAR,White,Black,wunderbar
+ORG,ORG,Orange,Black,wunderbar
+PAPAYA,PAPAYA,Purple,White,wunderbar
+PEACH,PEACH,Orange,Black,wunderbar
+PEPSI,PEPSI,Blue,White,wunderbar
+PIBB,PIBB,Brown,White,wunderbar
+PINA,PINA,White,Black,wunderbar
+PINE,PINE,Yellow,Black,wunderbar
+POG,POG,Purple,White,wunderbar
+POWER,POWER,Blue,White,wunderbar
+PRUNE,PRUNE,Brown,White,wunderbar
+PUNCH,PUNCH,Red,White,wunderbar
+RASP,RASP,Red,White,wunderbar
+RAVEN,RAVEN,Yellow,Blue,wunderbar
+RBEER,RBEER,White,Black,wunderbar
+REBEL,REBEL,Yellow,Blue,wunderbar
+RED,RED,Red,White,wunderbar
+RUSH,RUSH,Red,White,wunderbar
+RYE,RYE,White,Red,wunderbar
+SFL,SFL,White,Black,wunderbar
+SF_T,SF-T,Brown,White,wunderbar
+SLICE,SLICE,White,Black,wunderbar
+SOBE,SOBE,Yellow,Black,wunderbar
+SODA,SODA,White,Black,wunderbar
+SOUR,SOUR,White,Black,wunderbar
+SPORT,SPORT,Yellow,Black,wunderbar
+SPRITE,SPRITE,Green,White,wunderbar
+SQUIRT,SQUIRT,Green,White,wunderbar
+STARRY,STARRY,Green,White,wunderbar
+STRAW,STRAW,Red,White,wunderbar
+TANGO,TANGO,Orange,Black,wunderbar
+TEA,TEA,White,Black,wunderbar
+THK,THK,Orange,Black,wunderbar
+THROTL,THROTL,Blue,White,wunderbar
+TOM,TOM,Red,White,wunderbar
+TONIC,TONIC,White,Black,wunderbar
+TSF,TSF,Yellow,Black,wunderbar
+VIMTO,VIMTO,Purple,White,wunderbar
+WILD_CHERRY,WILD CHERRY,Maroon,White,wunderbar
+ZERO,ZERO,White,Black,wunderbar
+WATER,WATER,White,Black,house
+SPARKLING,SPARKLING,White,Black,house
+DIET_TONIC,DIET TONIC,White,Black,house
+GINGER_ALE,GINGER ALE,White,Black,house
+GINGER_BEER,GINGER BEER,White,Black,house
+SPICY_GINGER,SPICY GINGER,White,Black,house
+COCA_COLA,COCA COLA,White,Black,house
+DIET_COKE,DIET COKE,White,Black,house
+COKE_ZERO,COKE ZERO,White,Black,house
+DIET_PEPSI,DIET PEPSI,White,Black,house
+LEMON_LIME,LEMON LIME,White,Black,house
+DR_PEPPER,DR PEPPER,White,Black,house
+ROOT_BEER,ROOT BEER,White,Black,house
+CREAM_SODA,CREAM SODA,White,Black,house
+ORANGE_SODA,ORANGE SODA,White,Black,house
+GRAPE_SODA,GRAPE SODA,White,Black,house
+MOUNTAIN_DEW,MOUNTAIN|DEW,White,Black,house
+RED_BULL,RED BULL,White,Black,house
+ICED_TEA,ICED TEA,White,Black,house
+SWEET_TEA,SWEET TEA,White,Black,house
+COFFEE,COFFEE,White,Black,house
+COLD_BREW,COLD BREW,White,Black,house
+ESPRESSO,ESPRESSO,White,Black,house
+CHAI,CHAI,White,Black,house
+LEMONADE,LEMONADE,White,Black,house
+PINK_LEMONADE,PINK|LEMONADE,White,Black,house
+ORANGE,ORANGE,White,Black,house
+BLOOD_ORANGE,BLOOD|ORANGE,White,Black,house
+CRAN_BERRY,CRAN|BERRY,White,Black,house
+GRAPE_FRUIT,GRAPE|FRUIT,White,Black,house
+PINE_APPLE,PINE|APPLE,White,Black,house
+PASSION_FRUIT,PASSION|FRUIT,White,Black,house
+GUAVA,GUAVA,White,Black,house
+TOMATO,TOMATO,White,Black,house
+CLAMATO,CLAMATO,White,Black,house
+COCONUT,COCONUT,White,Black,house
+COCONUT_CREAM,COCONUT|CREAM,White,Black,house
+PICKLE_JUICE,PICKLE|JUICE,White,Black,house
+OLIVE_JUICE,OLIVE JUICE,White,Black,house
+SOUR_MIX,SOUR MIX,White,Black,house
+SWEET_SOUR,SWEET SOUR,White,Black,house
+SIMPLE_SYRUP,SIMPLE|SYRUP,White,Black,house
+AGAVE,AGAVE,White,Black,house
+HONEY,HONEY,White,Black,house
+HFCS_55,HFCS 55,White,Black,house
+GRENADINE,GRENADINE,White,Black,house
+ORGEAT,ORGEAT,White,Black,house
+FALERNUM,FALERNUM,White,Black,house
+BITTERS,BITTERS,White,Black,house
+MILK,MILK,White,Black,house
+OAT_MILK,OAT MILK,White,Black,house
+VODKA,VODKA,White,Black,house
+GIN,GIN,White,Black,house
+RUM,RUM,White,Black,house
+WHITE_RUM,WHITE RUM,White,Black,house
+DARK_RUM,DARK RUM,White,Black,house
+SPICED_RUM,SPICED RUM,White,Black,house
+TEQUILA,TEQUILA,White,Black,house
+MEZCAL,MEZCAL,White,Black,house
+WHISKEY,WHISKEY,White,Black,house
+BOURBON,BOURBON,White,Black,house
+SCOTCH,SCOTCH,White,Black,house
+IRISH_WHISKEY,IRISH|WHISKEY,White,Black,house
+BRANDY,BRANDY,White,Black,house
+COGNAC,COGNAC,White,Black,house
+PISCO,PISCO,White,Black,house
+CACHACA,CACHACA,White,Black,house
+SAKE,SAKE,White,Black,house
+SOJU,SOJU,White,Black,house
+CAMPARI,CAMPARI,White,Black,house
+APEROL,APEROL,White,Black,house
+VERMOUTH,VERMOUTH,White,Black,house
+DRY_VERMOUTH,DRY|VERMOUTH,White,Black,house
+SWEET_VERMOUTH,SWEET|VERMOUTH,White,Black,house
+TRIPLE_SEC,TRIPLE SEC,White,Black,house
+COINTREAU,COINTREAU,White,Black,house
+CURACAO,CURACAO,White,Black,house
+AMARETTO,AMARETTO,White,Black,house
+KAHLUA,KAHLUA,White,Black,house
+BAILEYS,BAILEYS,White,Black,house
+SAMBUCA,SAMBUCA,White,Black,house
+ABSINTHE,ABSINTHE,White,Black,house
+CHART_REUSE,CHART|REUSE,White,Black,house
+ST_GERMAIN,ST|GERMAIN,White,Black,house
+FERNET,FERNET,White,Black,house
+JAGER,JAGER,White,Black,house
+MIDORI,MIDORI,White,Black,house
+CHAMBORD,CHAMBORD,White,Black,house
+LIMON_CELLO,LIMON|CELLO,White,Black,house
+PROSECCO,PROSECCO,White,Black,house
+CHAMPAGNE,CHAMPAGNE,White,Black,house
+WHITE_WINE,WHITE WINE,White,Black,house
+RED_WINE,RED WINE,White,Black,house
+ROSE,ROSE,White,Black,house
+BEER,BEER,White,Black,house
+LAGER,LAGER,White,Black,house
+IPA,IPA,White,Black,house
+STOUT,STOUT,White,Black,house
+CIDER,CIDER,White,Black,house
+HARD_SELTZER,HARD|SELTZER,White,Black,house
+KOMBUCHA,KOMBUCHA,White,Black,house
+ICED_COFFEE,ICED COFFEE,White,Black,house
+HOT_WATER,HOT WATER,White,Black,house
+CLUB_SODA,CLUB SODA,White,Black,house
+SELTZER,SELTZER,White,Black,house
+MINERAL,MINERAL,White,Black,house
+BITTER_LEMON,BITTER LEMON,White,Black,house
+STRAW_BERRY,STRAW|BERRY,White,Black,house
+RASP_BERRY,RASP|BERRY,White,Black,house
+BLACK_BERRY,BLACK|BERRY,White,Black,house
+BLUE_BERRY,BLUE|BERRY,White,Black,house
+WATER_MELON,WATER|MELON,White,Black,house
+KIWI,KIWI,White,Black,house
+POME_GRANATE,POME|GRANATE,White,Black,house
+LYCHEE,LYCHEE,White,Black,house
+YUZU,YUZU,White,Black,house
+CUCUMBER,CUCUMBER,White,Black,house
+MINT,MINT,White,Black,house
+BASIL,BASIL,White,Black,house
+JALAPENO,JALAPENO,White,Black,house
+SRIRACHA,SRIRACHA,White,Black,house
+HOT_SAUCE,HOT SAUCE,White,Black,house
+BLOODY_MARY,BLOODY MARY,White,Black,house
+MARGARITA,MARGARITA,White,Black,house
+MOJITO,MOJITO,White,Black,house
+PINA_COLADA,PINA COLADA,White,Black,house
+DAIQUIRI,DAIQUIRI,White,Black,house
+OLD_FASHIONED,OLD|FASHIONED,White,Black,house
+NEGRONI,NEGRONI,White,Black,house
+SPRITZ,SPRITZ,White,Black,house
+MULE,MULE,White,Black,house
+PALOMA,PALOMA,White,Black,house
+COSMO,COSMO,White,Black,house
+MANHATTAN,MANHATTAN,White,Black,house
+MARTINI,MARTINI,White,Black,house
+SANGRIA,SANGRIA,White,Black,house
+HORCHATA,HORCHATA,White,Black,house
+NITRO,NITRO,White,Black,house
+CO2,CO2,White,Black,house
+DECAF,DECAF,White,Black,house
+SPARE,SPARE,White,Black,house
+CLEAN,CLEAN,White,Black,house
+RINSE,RINSE,White,Black,house
