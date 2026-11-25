@@ -127,6 +127,19 @@ Tips:
 ![Spirits](docs/long-spirits.jpg)
 <!-- caps:long:end -->
 
+## Storage tray
+
+`storage/CapTray.3mf` in the release keeps caps label up in a box with a 200 x 200 mm inside. Each cap
+sits on a peg shaped like the gun's button and lifts straight off. A tray holds 210 round caps (15 x 14)
+and, in the front row, 8 long caps. Trays stack: each stands on the rim of the one below, and the
+notches in two walls let you lift a tray out.
+
+Print `storage/CapTray-fit-coupon.3mf` first: a corner of the tray with 6 round pegs and a long peg. If
+the caps are too loose or too tight, change `peg_d`, `peg_flat`, `lpeg_w` in `cad/tray/CapTray.sc`
+(0.05 mm steps) and run `make tray`. `box_in` sets the box size.
+
+![Storage tray](docs/tray.png)
+
 ## Cap types
 
 | Type | Fits | Status |
@@ -153,6 +166,7 @@ You need:
 | `make` | One 3MF and one preview PNG for each label in `build/round/`, then `build/round/index.html` and `contact-sheet.png` |
 | `make docs` | The preview sheets in `docs/` and the "All caps" section of this README |
 | `make ordersheet` | `build/order-sheet.pdf`: every cap with a checkbox and a quantity field, US Letter, for a bar to order from |
+| `make tray` | `build/tray/CapTray.3mf` and the fit-test coupon |
 | `make dist VERSION=v0.2.0` | `dist/wunderbar-buttoncap-v0.2.0.zip` |
 | `make release VERSION=v0.2.0` | A draft GitHub release with the archive. Write `RELEASE_NOTES.md` first. |
 | `tools/plate.py plates/readme-photo.json build/readme-photo.3mf` | A Bambu Studio project with the caps of the plate spec, each part set to its filament slot; see [docs/bambu-3mf.md](docs/bambu-3mf.md) |

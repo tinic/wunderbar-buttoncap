@@ -1,0 +1,4 @@
+[
+  {"command": "solid.box", "params": {"length": 44.5, "width": 39.5, "height": 8,
+    "center": [-77.25, -79.75, 3.3], "operation": "intersect", "targets": ["Tray"], "name": "FitCoupon"}}
+]

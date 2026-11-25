@@ -17,7 +17,11 @@ README = """WunderBar bar gun button caps {version}
 https://github.com/tinic/wunderbar-buttoncap
 
 Open {first}/index.html to see every cap. order-sheet.pdf lists every cap with a
-checkbox: print it for a bar to tick the caps it wants. Each 3MF is one object with two
+checkbox: print it for a bar to tick the caps it wants.
+
+storage/CapTray.3mf is a tray for a 200 x 200 mm box: caps sit label up on
+pegs, 210 round caps and 8 long caps (front row) per tray, and trays stack.
+Print storage/CapTray-fit-coupon.3mf first to check how the caps fit. Each 3MF is one object with two
 parts: "Cap" and "Label". Print the label face down. In the slicer, give the
 Label part the letter colour and the Cap part the cap colour. The label is a
 0.4 mm inlay flush with the face.
@@ -45,6 +49,10 @@ def main():
     with zipfile.ZipFile(path, "w", zipfile.ZIP_DEFLATED) as z:
         z.writestr(name + "/README.txt", README.format(version=a.version, first=types[0]))
         z.write(os.path.join(ROOT, "LICENSE-CERN-OHL-P.txt"), name + "/LICENSE-CERN-OHL-P.txt")
+        for f in ("CapTray.3mf", "CapTray-fit-coupon.3mf"):
+            p = os.path.join(ROOT, "build", "tray", f)
+            if os.path.exists(p):
+                z.write(p, "%s/storage/%s" % (name, f))
         sheet = os.path.join(ROOT, "build", "order-sheet.pdf")
         if os.path.exists(sheet):
             z.write(sheet, name + "/order-sheet.pdf")
