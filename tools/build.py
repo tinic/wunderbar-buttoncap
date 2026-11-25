@@ -88,11 +88,18 @@ def run(args):
         raise RuntimeError((r.stderr or r.stdout).strip()[-600:])
 
 
+# Raise when a change to this script changes what it writes; edits that do not
+# (comments, reporting) then leave every built cap in place.
+BUILD_VERSION = 1
+
+
 def cap_key(row, cfg, design, font):
+    """Hash of everything that decides a cap's files: not the label's group or source."""
     h = hashlib.sha256()
-    for p in (design, font, __file__, textfit.__file__, threemf.__file__):
+    for p in (design, font, textfit.__file__, threemf.__file__):
         h.update(open(p, "rb").read())
-    h.update(json.dumps([row, cfg], sort_keys=True).encode())
+    inputs = {k: row[k] for k in ("file", "label", "cap", "letter")}
+    h.update(json.dumps([BUILD_VERSION, inputs, cfg], sort_keys=True).encode())
     return h.hexdigest()
 
 

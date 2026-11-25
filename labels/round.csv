@@ -1,256 +1,256 @@
-file,label,cap,letter,source
-1,1,White,Black,wunderbar
-2,2,White,Black,wunderbar
-A,A,Green,White,wunderbar
-B,B,Brown,White,wunderbar
-C,C,White,Black,wunderbar
-D,D,White,Black,wunderbar
-F,F,White,Black,wunderbar
-G,G,Green,White,wunderbar
-J,J,White,Black,wunderbar
-L,L,Yellow,Black,wunderbar
-M,M,White,Black,wunderbar
-O,O,White,Black,wunderbar
-P,P,Yellow,Black,wunderbar
-Q,Q,White,Black,wunderbar
-R,R,White,Black,wunderbar
-S,S,White,Black,wunderbar
-T,T,Brown,White,wunderbar
-V,V,White,Black,wunderbar
-W,W,Pink,Black,wunderbar
-BB,BB,White,Black,wunderbar
-BL,BL,Blue,White,wunderbar
-CR,CR,Red,White,wunderbar
-DC,DC,White,Black,wunderbar
-GF,GF,Yellow,Black,wunderbar
-HO,HO,Orange,White,wunderbar
-MY,MY,Yellow,Black,wunderbar
-OJ,OJ,Orange,Black,wunderbar
-RC,RC,Blue,White,wunderbar
-SQ,SQ,White,Black,wunderbar
-SS,SS,White,Black,wunderbar
-TR,TR,Yellow,Black,wunderbar
-AMP,AMP,White,Black,wunderbar
-APPLE,APPLE,Orange,Black,wunderbar
-BAM,BAM!,Red,White,wunderbar
-BANZAI,BANZAI,Red,Yellow,wunderbar
-BMARY,BMARY,Brown,White,wunderbar
-BULL,BULL,Black,White,wunderbar
-CHERRY,CHERRY,Red,White,wunderbar
-COCO,COCO,White,Black,wunderbar
-COKE,COKE,Red,White,wunderbar
-COLA,COLA,White,Black,wunderbar
-COLLINS,COLLINS,Black,White,wunderbar
-CRAN,CRAN,Red,White,wunderbar
-CREAM,CREAM,Orange,Black,wunderbar
-7UP,7UP,Green,White,wunderbar
-D7UP,D7UP,Green,White,wunderbar
-DIET,DIET,Blue,White,wunderbar
-DIETE,DIETE,White,Black,wunderbar
-DOC,DOC,Black,White,wunderbar
-D_PEP,D PEP,Blue,White,wunderbar
-DR_P,DR P,Brown,White,wunderbar
-DT_DRP,DT DRP,White,Burgundy,wunderbar
-DT_DEW,DT DEW,Green,White,wunderbar
-ENERGY,ENERGY,White,Black,wunderbar
-FRESCA,FRESCA,Blue,Black,wunderbar
-FUEL,FUEL,Red,White,wunderbar
-GALE,GALE,Green,White,wunderbar
-GATOR,GATOR,White,Black,wunderbar
-GBEER,GBEER,Brown,White,wunderbar
-GINGER,GINGER,Green,White,wunderbar
-GRAPE,GRAPE,Purple,White,wunderbar
-GRPFT,GRPFT,White,Black,wunderbar
-LADE,LADE,White,Black,wunderbar
-LEGEND,LEGEND,Purple,Yellow,wunderbar
-LEM,LEM,Blue,White,wunderbar
-LEMON,LEMON,White,Black,wunderbar
-LIME,LIME,Green,Black,wunderbar
-LION,LION,Yellow,Black,wunderbar
-MANGO,MANGO,Orange,Black,wunderbar
-MARG,MARG,White,Black,wunderbar
-MAX,MAX,Black,White,wunderbar
-MTDEW,MTDEW,Yellow,Black,wunderbar
-NECTAR,NECTAR,White,Black,wunderbar
-ORG,ORG,Orange,Black,wunderbar
-PAPAYA,PAPAYA,Purple,White,wunderbar
-PEACH,PEACH,Orange,Black,wunderbar
-PEPSI,PEPSI,Blue,White,wunderbar
-PIBB,PIBB,Brown,White,wunderbar
-PINA,PINA,White,Black,wunderbar
-PINE,PINE,Yellow,Black,wunderbar
-POG,POG,Purple,White,wunderbar
-POWER,POWER,Blue,White,wunderbar
-PRUNE,PRUNE,Brown,White,wunderbar
-PUNCH,PUNCH,Red,White,wunderbar
-RASP,RASP,Red,White,wunderbar
-RAVEN,RAVEN,Yellow,Blue,wunderbar
-RBEER,RBEER,White,Black,wunderbar
-REBEL,REBEL,Yellow,Blue,wunderbar
-RED,RED,Red,White,wunderbar
-RUSH,RUSH,Red,White,wunderbar
-RYE,RYE,White,Red,wunderbar
-SFL,SFL,White,Black,wunderbar
-SF_T,SF-T,Brown,White,wunderbar
-SLICE,SLICE,White,Black,wunderbar
-SOBE,SOBE,Yellow,Black,wunderbar
-SODA,SODA,White,Black,wunderbar
-SOUR,SOUR,White,Black,wunderbar
-SPORT,SPORT,Yellow,Black,wunderbar
-SPRITE,SPRITE,Green,White,wunderbar
-SQUIRT,SQUIRT,Green,White,wunderbar
-STARRY,STARRY,Green,White,wunderbar
-STRAW,STRAW,Red,White,wunderbar
-TANGO,TANGO,Orange,Black,wunderbar
-TEA,TEA,White,Black,wunderbar
-THK,THK,Orange,Black,wunderbar
-THROTL,THROTL,Blue,White,wunderbar
-TOM,TOM,Red,White,wunderbar
-TONIC,TONIC,White,Black,wunderbar
-TSF,TSF,Yellow,Black,wunderbar
-VIMTO,VIMTO,Purple,White,wunderbar
-WILD_CHERRY,WILD CHERRY,Maroon,White,wunderbar
-ZERO,ZERO,White,Black,wunderbar
-WATER,WATER,White,Black,house
-SPARKLING,SPARKLING,White,Black,house
-DIET_TONIC,DIET TONIC,White,Black,house
-GINGER_ALE,GINGER ALE,White,Black,house
-GINGER_BEER,GINGER BEER,White,Black,house
-SPICY_GINGER,SPICY GINGER,White,Black,house
-COCA_COLA,COCA COLA,White,Black,house
-DIET_COKE,DIET COKE,White,Black,house
-COKE_ZERO,COKE ZERO,White,Black,house
-DIET_PEPSI,DIET PEPSI,White,Black,house
-LEMON_LIME,LEMON LIME,White,Black,house
-DR_PEPPER,DR PEPPER,White,Black,house
-ROOT_BEER,ROOT BEER,White,Black,house
-CREAM_SODA,CREAM SODA,White,Black,house
-ORANGE_SODA,ORANGE SODA,White,Black,house
-GRAPE_SODA,GRAPE SODA,White,Black,house
-MOUNTAIN_DEW,MOUNTAIN|DEW,White,Black,house
-RED_BULL,RED BULL,White,Black,house
-ICED_TEA,ICED TEA,White,Black,house
-SWEET_TEA,SWEET TEA,White,Black,house
-COFFEE,COFFEE,White,Black,house
-COLD_BREW,COLD BREW,White,Black,house
-ESPRESSO,ESPRESSO,White,Black,house
-CHAI,CHAI,White,Black,house
-LEMONADE,LEMONADE,White,Black,house
-PINK_LEMONADE,PINK|LEMONADE,White,Black,house
-ORANGE,ORANGE,White,Black,house
-BLOOD_ORANGE,BLOOD|ORANGE,White,Black,house
-CRAN_BERRY,CRAN|BERRY,White,Black,house
-GRAPE_FRUIT,GRAPE|FRUIT,White,Black,house
-PINE_APPLE,PINE|APPLE,White,Black,house
-PASSION_FRUIT,PASSION|FRUIT,White,Black,house
-GUAVA,GUAVA,White,Black,house
-TOMATO,TOMATO,White,Black,house
-CLAMATO,CLAMATO,White,Black,house
-COCONUT,COCONUT,White,Black,house
-COCONUT_CREAM,COCONUT|CREAM,White,Black,house
-PICKLE_JUICE,PICKLE|JUICE,White,Black,house
-OLIVE_JUICE,OLIVE JUICE,White,Black,house
-SOUR_MIX,SOUR MIX,White,Black,house
-SWEET_SOUR,SWEET SOUR,White,Black,house
-SIMPLE_SYRUP,SIMPLE|SYRUP,White,Black,house
-AGAVE,AGAVE,White,Black,house
-HONEY,HONEY,White,Black,house
-HFCS_55,HFCS 55,White,Black,house
-GRENADINE,GRENADINE,White,Black,house
-ORGEAT,ORGEAT,White,Black,house
-FALERNUM,FALERNUM,White,Black,house
-BITTERS,BITTERS,White,Black,house
-MILK,MILK,White,Black,house
-OAT_MILK,OAT MILK,White,Black,house
-VODKA,VODKA,White,Black,house
-GIN,GIN,White,Black,house
-RUM,RUM,White,Black,house
-WHITE_RUM,WHITE RUM,White,Black,house
-DARK_RUM,DARK RUM,White,Black,house
-SPICED_RUM,SPICED RUM,White,Black,house
-TEQUILA,TEQUILA,White,Black,house
-MEZCAL,MEZCAL,White,Black,house
-WHISKEY,WHISKEY,White,Black,house
-BOURBON,BOURBON,White,Black,house
-SCOTCH,SCOTCH,White,Black,house
-IRISH_WHISKEY,IRISH|WHISKEY,White,Black,house
-BRANDY,BRANDY,White,Black,house
-COGNAC,COGNAC,White,Black,house
-PISCO,PISCO,White,Black,house
-CACHACA,CACHACA,White,Black,house
-SAKE,SAKE,White,Black,house
-SOJU,SOJU,White,Black,house
-CAMPARI,CAMPARI,White,Black,house
-APEROL,APEROL,White,Black,house
-VERMOUTH,VERMOUTH,White,Black,house
-DRY_VERMOUTH,DRY|VERMOUTH,White,Black,house
-SWEET_VERMOUTH,SWEET|VERMOUTH,White,Black,house
-TRIPLE_SEC,TRIPLE SEC,White,Black,house
-COINTREAU,COINTREAU,White,Black,house
-CURACAO,CURACAO,White,Black,house
-AMARETTO,AMARETTO,White,Black,house
-KAHLUA,KAHLUA,White,Black,house
-BAILEYS,BAILEYS,White,Black,house
-SAMBUCA,SAMBUCA,White,Black,house
-ABSINTHE,ABSINTHE,White,Black,house
-CHART_REUSE,CHART|REUSE,White,Black,house
-ST_GERMAIN,ST|GERMAIN,White,Black,house
-FERNET,FERNET,White,Black,house
-JAGER,JAGER,White,Black,house
-MIDORI,MIDORI,White,Black,house
-CHAMBORD,CHAMBORD,White,Black,house
-LIMON_CELLO,LIMON|CELLO,White,Black,house
-PROSECCO,PROSECCO,White,Black,house
-CHAMPAGNE,CHAMPAGNE,White,Black,house
-WHITE_WINE,WHITE WINE,White,Black,house
-RED_WINE,RED WINE,White,Black,house
-ROSE,ROSE,White,Black,house
-BEER,BEER,White,Black,house
-LAGER,LAGER,White,Black,house
-IPA,IPA,White,Black,house
-STOUT,STOUT,White,Black,house
-CIDER,CIDER,White,Black,house
-HARD_SELTZER,HARD|SELTZER,White,Black,house
-KOMBUCHA,KOMBUCHA,White,Black,house
-ICED_COFFEE,ICED COFFEE,White,Black,house
-HOT_WATER,HOT WATER,White,Black,house
-CLUB_SODA,CLUB SODA,White,Black,house
-SELTZER,SELTZER,White,Black,house
-MINERAL,MINERAL,White,Black,house
-BITTER_LEMON,BITTER LEMON,White,Black,house
-STRAW_BERRY,STRAW|BERRY,White,Black,house
-RASP_BERRY,RASP|BERRY,White,Black,house
-BLACK_BERRY,BLACK|BERRY,White,Black,house
-BLUE_BERRY,BLUE|BERRY,White,Black,house
-WATER_MELON,WATER|MELON,White,Black,house
-KIWI,KIWI,White,Black,house
-POME_GRANATE,POME|GRANATE,White,Black,house
-LYCHEE,LYCHEE,White,Black,house
-YUZU,YUZU,White,Black,house
-CUCUMBER,CUCUMBER,White,Black,house
-MINT,MINT,White,Black,house
-BASIL,BASIL,White,Black,house
-JALAPENO,JALAPENO,White,Black,house
-SRIRACHA,SRIRACHA,White,Black,house
-HOT_SAUCE,HOT SAUCE,White,Black,house
-BLOODY_MARY,BLOODY MARY,White,Black,house
-MARGARITA,MARGARITA,White,Black,house
-MOJITO,MOJITO,White,Black,house
-PINA_COLADA,PINA COLADA,White,Black,house
-DAIQUIRI,DAIQUIRI,White,Black,house
-OLD_FASHIONED,OLD|FASHIONED,White,Black,house
-NEGRONI,NEGRONI,White,Black,house
-SPRITZ,SPRITZ,White,Black,house
-MULE,MULE,White,Black,house
-PALOMA,PALOMA,White,Black,house
-COSMO,COSMO,White,Black,house
-MANHATTAN,MANHATTAN,White,Black,house
-MARTINI,MARTINI,White,Black,house
-SANGRIA,SANGRIA,White,Black,house
-HORCHATA,HORCHATA,White,Black,house
-NITRO,NITRO,White,Black,house
-CO2,CO2,White,Black,house
-DECAF,DECAF,White,Black,house
-SPARE,SPARE,White,Black,house
-CLEAN,CLEAN,White,Black,house
-RINSE,RINSE,White,Black,house
+file,label,group,cap,letter,source
+1,1,Letters and codes,White,Black,wunderbar
+2,2,Letters and codes,White,Black,wunderbar
+A,A,Letters and codes,Green,White,wunderbar
+B,B,Letters and codes,Brown,White,wunderbar
+C,C,Letters and codes,White,Black,wunderbar
+D,D,Letters and codes,White,Black,wunderbar
+F,F,Letters and codes,White,Black,wunderbar
+G,G,Letters and codes,Green,White,wunderbar
+J,J,Letters and codes,White,Black,wunderbar
+L,L,Letters and codes,Yellow,Black,wunderbar
+M,M,Letters and codes,White,Black,wunderbar
+O,O,Letters and codes,White,Black,wunderbar
+P,P,Letters and codes,Yellow,Black,wunderbar
+Q,Q,Letters and codes,White,Black,wunderbar
+R,R,Letters and codes,White,Black,wunderbar
+S,S,Letters and codes,White,Black,wunderbar
+T,T,Letters and codes,Brown,White,wunderbar
+V,V,Letters and codes,White,Black,wunderbar
+W,W,Letters and codes,Pink,Black,wunderbar
+BB,BB,Letters and codes,White,Black,wunderbar
+BL,BL,Letters and codes,Blue,White,wunderbar
+CR,CR,Letters and codes,Red,White,wunderbar
+DC,DC,Letters and codes,White,Black,wunderbar
+GF,GF,Letters and codes,Yellow,Black,wunderbar
+HO,HO,Letters and codes,Orange,White,wunderbar
+MY,MY,Letters and codes,Yellow,Black,wunderbar
+OJ,OJ,Letters and codes,Orange,Black,wunderbar
+RC,RC,Letters and codes,Blue,White,wunderbar
+SQ,SQ,Letters and codes,White,Black,wunderbar
+SS,SS,Letters and codes,White,Black,wunderbar
+TR,TR,Letters and codes,Yellow,Black,wunderbar
+AMP,AMP,Wunder-Bar catalogue,White,Black,wunderbar
+APPLE,APPLE,Wunder-Bar catalogue,Orange,Black,wunderbar
+BAM,BAM!,Wunder-Bar catalogue,Red,White,wunderbar
+BANZAI,BANZAI,Wunder-Bar catalogue,Red,Yellow,wunderbar
+BMARY,BMARY,Wunder-Bar catalogue,Brown,White,wunderbar
+BULL,BULL,Wunder-Bar catalogue,Black,White,wunderbar
+CHERRY,CHERRY,Wunder-Bar catalogue,Red,White,wunderbar
+COCO,COCO,Wunder-Bar catalogue,White,Black,wunderbar
+COKE,COKE,Wunder-Bar catalogue,Red,White,wunderbar
+COLA,COLA,Wunder-Bar catalogue,White,Black,wunderbar
+COLLINS,COLLINS,Wunder-Bar catalogue,Black,White,wunderbar
+CRAN,CRAN,Wunder-Bar catalogue,Red,White,wunderbar
+CREAM,CREAM,Wunder-Bar catalogue,Orange,Black,wunderbar
+7UP,7UP,Wunder-Bar catalogue,Green,White,wunderbar
+D7UP,D7UP,Wunder-Bar catalogue,Green,White,wunderbar
+DIET,DIET,Wunder-Bar catalogue,Blue,White,wunderbar
+DIETE,DIETE,Wunder-Bar catalogue,White,Black,wunderbar
+DOC,DOC,Wunder-Bar catalogue,Black,White,wunderbar
+D_PEP,D PEP,Wunder-Bar catalogue,Blue,White,wunderbar
+DR_P,DR P,Wunder-Bar catalogue,Brown,White,wunderbar
+DT_DRP,DT DRP,Wunder-Bar catalogue,White,Burgundy,wunderbar
+DT_DEW,DT DEW,Wunder-Bar catalogue,Green,White,wunderbar
+ENERGY,ENERGY,Wunder-Bar catalogue,White,Black,wunderbar
+FRESCA,FRESCA,Wunder-Bar catalogue,Blue,Black,wunderbar
+FUEL,FUEL,Wunder-Bar catalogue,Red,White,wunderbar
+GALE,GALE,Wunder-Bar catalogue,Green,White,wunderbar
+GATOR,GATOR,Wunder-Bar catalogue,White,Black,wunderbar
+GBEER,GBEER,Wunder-Bar catalogue,Brown,White,wunderbar
+GINGER,GINGER,Wunder-Bar catalogue,Green,White,wunderbar
+GRAPE,GRAPE,Wunder-Bar catalogue,Purple,White,wunderbar
+GRPFT,GRPFT,Wunder-Bar catalogue,White,Black,wunderbar
+LADE,LADE,Wunder-Bar catalogue,White,Black,wunderbar
+LEGEND,LEGEND,Wunder-Bar catalogue,Purple,Yellow,wunderbar
+LEM,LEM,Wunder-Bar catalogue,Blue,White,wunderbar
+LEMON,LEMON,Wunder-Bar catalogue,White,Black,wunderbar
+LIME,LIME,Wunder-Bar catalogue,Green,Black,wunderbar
+LION,LION,Wunder-Bar catalogue,Yellow,Black,wunderbar
+MANGO,MANGO,Wunder-Bar catalogue,Orange,Black,wunderbar
+MARG,MARG,Wunder-Bar catalogue,White,Black,wunderbar
+MAX,MAX,Wunder-Bar catalogue,Black,White,wunderbar
+MTDEW,MTDEW,Wunder-Bar catalogue,Yellow,Black,wunderbar
+NECTAR,NECTAR,Wunder-Bar catalogue,White,Black,wunderbar
+ORG,ORG,Wunder-Bar catalogue,Orange,Black,wunderbar
+PAPAYA,PAPAYA,Wunder-Bar catalogue,Purple,White,wunderbar
+PEACH,PEACH,Wunder-Bar catalogue,Orange,Black,wunderbar
+PEPSI,PEPSI,Wunder-Bar catalogue,Blue,White,wunderbar
+PIBB,PIBB,Wunder-Bar catalogue,Brown,White,wunderbar
+PINA,PINA,Wunder-Bar catalogue,White,Black,wunderbar
+PINE,PINE,Wunder-Bar catalogue,Yellow,Black,wunderbar
+POG,POG,Wunder-Bar catalogue,Purple,White,wunderbar
+POWER,POWER,Wunder-Bar catalogue,Blue,White,wunderbar
+PRUNE,PRUNE,Wunder-Bar catalogue,Brown,White,wunderbar
+PUNCH,PUNCH,Wunder-Bar catalogue,Red,White,wunderbar
+RASP,RASP,Wunder-Bar catalogue,Red,White,wunderbar
+RAVEN,RAVEN,Wunder-Bar catalogue,Yellow,Blue,wunderbar
+RBEER,RBEER,Wunder-Bar catalogue,White,Black,wunderbar
+REBEL,REBEL,Wunder-Bar catalogue,Yellow,Blue,wunderbar
+RED,RED,Wunder-Bar catalogue,Red,White,wunderbar
+RUSH,RUSH,Wunder-Bar catalogue,Red,White,wunderbar
+RYE,RYE,Wunder-Bar catalogue,White,Red,wunderbar
+SFL,SFL,Wunder-Bar catalogue,White,Black,wunderbar
+SF_T,SF-T,Wunder-Bar catalogue,Brown,White,wunderbar
+SLICE,SLICE,Wunder-Bar catalogue,White,Black,wunderbar
+SOBE,SOBE,Wunder-Bar catalogue,Yellow,Black,wunderbar
+SODA,SODA,Wunder-Bar catalogue,White,Black,wunderbar
+SOUR,SOUR,Wunder-Bar catalogue,White,Black,wunderbar
+SPORT,SPORT,Wunder-Bar catalogue,Yellow,Black,wunderbar
+SPRITE,SPRITE,Wunder-Bar catalogue,Green,White,wunderbar
+SQUIRT,SQUIRT,Wunder-Bar catalogue,Green,White,wunderbar
+STARRY,STARRY,Wunder-Bar catalogue,Green,White,wunderbar
+STRAW,STRAW,Wunder-Bar catalogue,Red,White,wunderbar
+TANGO,TANGO,Wunder-Bar catalogue,Orange,Black,wunderbar
+TEA,TEA,Wunder-Bar catalogue,White,Black,wunderbar
+THK,THK,Wunder-Bar catalogue,Orange,Black,wunderbar
+THROTL,THROTL,Wunder-Bar catalogue,Blue,White,wunderbar
+TOM,TOM,Wunder-Bar catalogue,Red,White,wunderbar
+TONIC,TONIC,Wunder-Bar catalogue,White,Black,wunderbar
+TSF,TSF,Wunder-Bar catalogue,Yellow,Black,wunderbar
+VIMTO,VIMTO,Wunder-Bar catalogue,Purple,White,wunderbar
+WILD_CHERRY,WILD CHERRY,Wunder-Bar catalogue,Maroon,White,wunderbar
+ZERO,ZERO,Wunder-Bar catalogue,White,Black,wunderbar
+WATER,WATER,Sodas and mixers,White,Black,house
+SPARKLING,SPARKLING,Sodas and mixers,White,Black,house
+DIET_TONIC,DIET TONIC,Sodas and mixers,White,Black,house
+GINGER_ALE,GINGER ALE,Sodas and mixers,White,Black,house
+GINGER_BEER,GINGER BEER,Sodas and mixers,White,Black,house
+SPICY_GINGER,SPICY GINGER,Sodas and mixers,White,Black,house
+COCA_COLA,COCA COLA,Sodas and mixers,White,Black,house
+DIET_COKE,DIET COKE,Sodas and mixers,White,Black,house
+COKE_ZERO,COKE ZERO,Sodas and mixers,White,Black,house
+DIET_PEPSI,DIET PEPSI,Sodas and mixers,White,Black,house
+LEMON_LIME,LEMON LIME,Sodas and mixers,White,Black,house
+DR_PEPPER,DR PEPPER,Sodas and mixers,White,Black,house
+ROOT_BEER,ROOT BEER,Sodas and mixers,White,Black,house
+CREAM_SODA,CREAM SODA,Sodas and mixers,White,Black,house
+ORANGE_SODA,ORANGE SODA,Sodas and mixers,White,Black,house
+GRAPE_SODA,GRAPE SODA,Sodas and mixers,White,Black,house
+MOUNTAIN_DEW,MOUNTAIN|DEW,Sodas and mixers,White,Black,house
+RED_BULL,RED BULL,Sodas and mixers,White,Black,house
+ICED_TEA,ICED TEA,"Coffee, tea and milk",White,Black,house
+SWEET_TEA,SWEET TEA,"Coffee, tea and milk",White,Black,house
+COFFEE,COFFEE,"Coffee, tea and milk",White,Black,house
+COLD_BREW,COLD BREW,"Coffee, tea and milk",White,Black,house
+ESPRESSO,ESPRESSO,"Coffee, tea and milk",White,Black,house
+CHAI,CHAI,"Coffee, tea and milk",White,Black,house
+LEMONADE,LEMONADE,Juices and fruit,White,Black,house
+PINK_LEMONADE,PINK|LEMONADE,Juices and fruit,White,Black,house
+ORANGE,ORANGE,Juices and fruit,White,Black,house
+BLOOD_ORANGE,BLOOD|ORANGE,Juices and fruit,White,Black,house
+CRANBERRY,CRAN|BERRY,Juices and fruit,White,Black,house
+GRAPEFRUIT,GRAPE|FRUIT,Juices and fruit,White,Black,house
+PINEAPPLE,PINE|APPLE,Juices and fruit,White,Black,house
+PASSION_FRUIT,PASSION|FRUIT,Juices and fruit,White,Black,house
+GUAVA,GUAVA,Juices and fruit,White,Black,house
+TOMATO,TOMATO,Juices and fruit,White,Black,house
+CLAMATO,CLAMATO,Juices and fruit,White,Black,house
+COCONUT,COCONUT,Juices and fruit,White,Black,house
+COCONUT_CREAM,COCONUT|CREAM,Juices and fruit,White,Black,house
+PICKLE_JUICE,PICKLE|JUICE,Juices and fruit,White,Black,house
+OLIVE_JUICE,OLIVE JUICE,Juices and fruit,White,Black,house
+SOUR_MIX,SOUR MIX,Syrups and flavours,White,Black,house
+SWEET_SOUR,SWEET SOUR,Syrups and flavours,White,Black,house
+SIMPLE_SYRUP,SIMPLE|SYRUP,Syrups and flavours,White,Black,house
+AGAVE,AGAVE,Syrups and flavours,White,Black,house
+HONEY,HONEY,Syrups and flavours,White,Black,house
+HFCS_55,HFCS 55,Syrups and flavours,White,Black,house
+GRENADINE,GRENADINE,Syrups and flavours,White,Black,house
+ORGEAT,ORGEAT,Syrups and flavours,White,Black,house
+FALERNUM,FALERNUM,Syrups and flavours,White,Black,house
+BITTERS,BITTERS,Syrups and flavours,White,Black,house
+MILK,MILK,"Coffee, tea and milk",White,Black,house
+OAT_MILK,OAT MILK,"Coffee, tea and milk",White,Black,house
+VODKA,VODKA,Spirits and liqueurs,White,Black,house
+GIN,GIN,Spirits and liqueurs,White,Black,house
+RUM,RUM,Spirits and liqueurs,White,Black,house
+WHITE_RUM,WHITE RUM,Spirits and liqueurs,White,Black,house
+DARK_RUM,DARK RUM,Spirits and liqueurs,White,Black,house
+SPICED_RUM,SPICED RUM,Spirits and liqueurs,White,Black,house
+TEQUILA,TEQUILA,Spirits and liqueurs,White,Black,house
+MEZCAL,MEZCAL,Spirits and liqueurs,White,Black,house
+WHISKEY,WHISKEY,Spirits and liqueurs,White,Black,house
+BOURBON,BOURBON,Spirits and liqueurs,White,Black,house
+SCOTCH,SCOTCH,Spirits and liqueurs,White,Black,house
+IRISH_WHISKEY,IRISH|WHISKEY,Spirits and liqueurs,White,Black,house
+BRANDY,BRANDY,Spirits and liqueurs,White,Black,house
+COGNAC,COGNAC,Spirits and liqueurs,White,Black,house
+PISCO,PISCO,Spirits and liqueurs,White,Black,house
+CACHACA,CACHACA,Spirits and liqueurs,White,Black,house
+SAKE,SAKE,Spirits and liqueurs,White,Black,house
+SOJU,SOJU,Spirits and liqueurs,White,Black,house
+CAMPARI,CAMPARI,Spirits and liqueurs,White,Black,house
+APEROL,APEROL,Spirits and liqueurs,White,Black,house
+VERMOUTH,VERMOUTH,Spirits and liqueurs,White,Black,house
+DRY_VERMOUTH,DRY|VERMOUTH,Spirits and liqueurs,White,Black,house
+SWEET_VERMOUTH,SWEET|VERMOUTH,Spirits and liqueurs,White,Black,house
+TRIPLE_SEC,TRIPLE SEC,Spirits and liqueurs,White,Black,house
+COINTREAU,COINTREAU,Spirits and liqueurs,White,Black,house
+CURACAO,CURACAO,Spirits and liqueurs,White,Black,house
+AMARETTO,AMARETTO,Spirits and liqueurs,White,Black,house
+KAHLUA,KAHLUA,Spirits and liqueurs,White,Black,house
+BAILEYS,BAILEYS,Spirits and liqueurs,White,Black,house
+SAMBUCA,SAMBUCA,Spirits and liqueurs,White,Black,house
+ABSINTHE,ABSINTHE,Spirits and liqueurs,White,Black,house
+CHARTREUSE,CHART|REUSE,Spirits and liqueurs,White,Black,house
+ST_GERMAIN,ST|GERMAIN,Spirits and liqueurs,White,Black,house
+FERNET,FERNET,Spirits and liqueurs,White,Black,house
+JAGER,JAGER,Spirits and liqueurs,White,Black,house
+MIDORI,MIDORI,Spirits and liqueurs,White,Black,house
+CHAMBORD,CHAMBORD,Spirits and liqueurs,White,Black,house
+LIMONCELLO,LIMON|CELLO,Spirits and liqueurs,White,Black,house
+PROSECCO,PROSECCO,Wine and beer,White,Black,house
+CHAMPAGNE,CHAMPAGNE,Wine and beer,White,Black,house
+WHITE_WINE,WHITE WINE,Wine and beer,White,Black,house
+RED_WINE,RED WINE,Wine and beer,White,Black,house
+ROSE,ROSE,Wine and beer,White,Black,house
+BEER,BEER,Wine and beer,White,Black,house
+LAGER,LAGER,Wine and beer,White,Black,house
+IPA,IPA,Wine and beer,White,Black,house
+STOUT,STOUT,Wine and beer,White,Black,house
+CIDER,CIDER,Wine and beer,White,Black,house
+HARD_SELTZER,HARD|SELTZER,Wine and beer,White,Black,house
+KOMBUCHA,KOMBUCHA,Sodas and mixers,White,Black,house
+ICED_COFFEE,ICED COFFEE,"Coffee, tea and milk",White,Black,house
+HOT_WATER,HOT WATER,Sodas and mixers,White,Black,house
+CLUB_SODA,CLUB SODA,Sodas and mixers,White,Black,house
+SELTZER,SELTZER,Sodas and mixers,White,Black,house
+MINERAL,MINERAL,Sodas and mixers,White,Black,house
+BITTER_LEMON,BITTER LEMON,Sodas and mixers,White,Black,house
+STRAWBERRY,STRAW|BERRY,Juices and fruit,White,Black,house
+RASPBERRY,RASP|BERRY,Juices and fruit,White,Black,house
+BLACKBERRY,BLACK|BERRY,Juices and fruit,White,Black,house
+BLUEBERRY,BLUE|BERRY,Juices and fruit,White,Black,house
+WATERMELON,WATER|MELON,Juices and fruit,White,Black,house
+KIWI,KIWI,Juices and fruit,White,Black,house
+POMEGRANATE,POME|GRANATE,Juices and fruit,White,Black,house
+LYCHEE,LYCHEE,Juices and fruit,White,Black,house
+YUZU,YUZU,Juices and fruit,White,Black,house
+CUCUMBER,CUCUMBER,Juices and fruit,White,Black,house
+MINT,MINT,Syrups and flavours,White,Black,house
+BASIL,BASIL,Syrups and flavours,White,Black,house
+JALAPENO,JALAPENO,Syrups and flavours,White,Black,house
+SRIRACHA,SRIRACHA,Syrups and flavours,White,Black,house
+HOT_SAUCE,HOT SAUCE,Syrups and flavours,White,Black,house
+BLOODY_MARY,BLOODY MARY,Cocktails,White,Black,house
+MARGARITA,MARGARITA,Cocktails,White,Black,house
+MOJITO,MOJITO,Cocktails,White,Black,house
+PINA_COLADA,PINA COLADA,Cocktails,White,Black,house
+DAIQUIRI,DAIQUIRI,Cocktails,White,Black,house
+OLD_FASHIONED,OLD|FASHIONED,Cocktails,White,Black,house
+NEGRONI,NEGRONI,Cocktails,White,Black,house
+SPRITZ,SPRITZ,Cocktails,White,Black,house
+MULE,MULE,Cocktails,White,Black,house
+PALOMA,PALOMA,Cocktails,White,Black,house
+COSMO,COSMO,Cocktails,White,Black,house
+MANHATTAN,MANHATTAN,Cocktails,White,Black,house
+MARTINI,MARTINI,Cocktails,White,Black,house
+SANGRIA,SANGRIA,Cocktails,White,Black,house
+HORCHATA,HORCHATA,"Coffee, tea and milk",White,Black,house
+NITRO,NITRO,"Coffee, tea and milk",White,Black,house
+CO2,CO2,Service,White,Black,house
+DECAF,DECAF,"Coffee, tea and milk",White,Black,house
+SPARE,SPARE,Service,White,Black,house
+CLEAN,CLEAN,Service,White,Black,house
+RINSE,RINSE,Service,White,Black,house
