@@ -13,8 +13,8 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # The caps of docs/sample.png, the picture at the top of the README.
-SAMPLE = ["B", "OJ", "DIET", "COKE", "TONIC", "SPRITE", "BMARY", "GINGER_ALE", "PICKLE_JUICE",
-          "WILD_CHERRY", "ST_GERMAIN", "CRANBERRY", "GRAPEFRUIT", "HFCS_55", "MOUNTAIN_DEW"]
+SAMPLE = ["PICKLE_JUICE", "COFFEE", "CAMPARI", "OJ", "COKE", "GIN", "IRISH_WHISKEY", "SPICY_GINGER",
+          "PASSION_FRUIT", "TONIC", "DIET", "SPRITE", "WILD_CHERRY", "BMARY", "B"]
 
 
 def slug(s):
@@ -34,7 +34,7 @@ def sheet(items, base, cols, tile, caption_px, out, fmt):
         im.thumbnail((int(tile * 0.9), int(tile * 0.9)), Image.LANCZOS)
         im_out.paste(im, (x + (tile - im.width) // 2, y + (tile - im.height) // 2), im)
         if font:
-            d.text((x + tile / 2, y + tile), m["label"].replace("|", " "), fill="#333333", font=font, anchor="ma")
+            d.text((x + tile / 2, y + tile), m["file"].replace("_", " "), fill="#333333", font=font, anchor="ma")
     if fmt == "jpg":
         im_out.save(out, quality=82, optimize=True, progressive=True)
     else:

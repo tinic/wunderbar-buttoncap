@@ -111,146 +111,118 @@ TSF,TSF,Wunder-Bar catalogue,Yellow,Black,wunderbar
 VIMTO,VIMTO,Wunder-Bar catalogue,Purple,White,wunderbar
 WILD_CHERRY,WILD CHERRY,Wunder-Bar catalogue,Maroon,White,wunderbar
 ZERO,ZERO,Wunder-Bar catalogue,White,Black,wunderbar
-WATER,WATER,Sodas and mixers,White,Black,house
-SPARKLING,SPARKLING,Sodas and mixers,White,Black,house
-DIET_TONIC,DIET TONIC,Sodas and mixers,White,Black,house
-GINGER_ALE,GINGER ALE,Sodas and mixers,White,Black,house
-GINGER_BEER,GINGER BEER,Sodas and mixers,White,Black,house
-SPICY_GINGER,SPICY GINGER,Sodas and mixers,White,Black,house
-COCA_COLA,COCA COLA,Sodas and mixers,White,Black,house
-DIET_COKE,DIET COKE,Sodas and mixers,White,Black,house
-COKE_ZERO,COKE ZERO,Sodas and mixers,White,Black,house
-DIET_PEPSI,DIET PEPSI,Sodas and mixers,White,Black,house
-LEMON_LIME,LEMON LIME,Sodas and mixers,White,Black,house
-DR_PEPPER,DR PEPPER,Sodas and mixers,White,Black,house
-ROOT_BEER,ROOT BEER,Sodas and mixers,White,Black,house
-CREAM_SODA,CREAM SODA,Sodas and mixers,White,Black,house
-ORANGE_SODA,ORANGE SODA,Sodas and mixers,White,Black,house
-GRAPE_SODA,GRAPE SODA,Sodas and mixers,White,Black,house
-MOUNTAIN_DEW,MOUNTAIN|DEW,Sodas and mixers,White,Black,house
-RED_BULL,RED BULL,Sodas and mixers,White,Black,house
-ICED_TEA,ICED TEA,"Coffee, tea and milk",White,Black,house
-SWEET_TEA,SWEET TEA,"Coffee, tea and milk",White,Black,house
-COFFEE,COFFEE,"Coffee, tea and milk",White,Black,house
-COLD_BREW,COLD BREW,"Coffee, tea and milk",White,Black,house
-ESPRESSO,ESPRESSO,"Coffee, tea and milk",White,Black,house
-CHAI,CHAI,"Coffee, tea and milk",White,Black,house
-LEMONADE,LEMONADE,Juices and fruit,White,Black,house
-PINK_LEMONADE,PINK|LEMONADE,Juices and fruit,White,Black,house
-ORANGE,ORANGE,Juices and fruit,White,Black,house
-BLOOD_ORANGE,BLOOD|ORANGE,Juices and fruit,White,Black,house
-CRANBERRY,CRAN|BERRY,Juices and fruit,White,Black,house
-GRAPEFRUIT,GRAPE|FRUIT,Juices and fruit,White,Black,house
-PINEAPPLE,PINE|APPLE,Juices and fruit,White,Black,house
-PASSION_FRUIT,PASSION|FRUIT,Juices and fruit,White,Black,house
-GUAVA,GUAVA,Juices and fruit,White,Black,house
-TOMATO,TOMATO,Juices and fruit,White,Black,house
-CLAMATO,CLAMATO,Juices and fruit,White,Black,house
-COCONUT,COCONUT,Juices and fruit,White,Black,house
-COCONUT_CREAM,COCONUT|CREAM,Juices and fruit,White,Black,house
-PICKLE_JUICE,PICKLE|JUICE,Juices and fruit,White,Black,house
-OLIVE_JUICE,OLIVE JUICE,Juices and fruit,White,Black,house
-SOUR_MIX,SOUR MIX,Syrups and flavours,White,Black,house
-SWEET_SOUR,SWEET SOUR,Syrups and flavours,White,Black,house
-SIMPLE_SYRUP,SIMPLE|SYRUP,Syrups and flavours,White,Black,house
-AGAVE,AGAVE,Syrups and flavours,White,Black,house
-HONEY,HONEY,Syrups and flavours,White,Black,house
-HFCS_55,HFCS 55,Syrups and flavours,White,Black,house
-GRENADINE,GRENADINE,Syrups and flavours,White,Black,house
-ORGEAT,ORGEAT,Syrups and flavours,White,Black,house
-FALERNUM,FALERNUM,Syrups and flavours,White,Black,house
-BITTERS,BITTERS,Syrups and flavours,White,Black,house
-MILK,MILK,"Coffee, tea and milk",White,Black,house
-OAT_MILK,OAT MILK,"Coffee, tea and milk",White,Black,house
-VODKA,VODKA,Spirits and liqueurs,White,Black,house
-GIN,GIN,Spirits and liqueurs,White,Black,house
+SPARKLING_WATER,SPRK,Sodas and mixers,White,Blue,house
+MINERAL_WATER,MIN,Sodas and mixers,White,Blue,house
+SELTZER,SELT,Sodas and mixers,White,Blue,house
+HOT_WATER,HOT,Sodas and mixers,Red,White,house
+DIET_TONIC,DTON,Sodas and mixers,White,Blue,house
+SPICY_GINGER,SG,Sodas and mixers,Brown,White,house
+LEMON_LIME,LL,Sodas and mixers,Yellow,Green,house
+BITTER_LEMON,BLEM,Sodas and mixers,Yellow,Black,house
+KOMBUCHA,KOM,Sodas and mixers,Orange,Black,house
+COFFEE,JAVA,"Coffee, tea and milk",Black,White,house
+COLD_BREW,CB,"Coffee, tea and milk",Black,White,house
+ESPRESSO,ESP,"Coffee, tea and milk",Black,White,house
+ICED_COFFEE,IC,"Coffee, tea and milk",Black,White,house
+DECAF,DCAF,"Coffee, tea and milk",Orange,Black,house
+NITRO,NITRO,"Coffee, tea and milk",Black,White,house
+ICED_TEA,ITEA,"Coffee, tea and milk",Brown,White,house
+SWEET_TEA,STEA,"Coffee, tea and milk",Brown,White,house
+CHAI,CHAI,"Coffee, tea and milk",Brown,White,house
+MILK,MILK,"Coffee, tea and milk",White,Blue,house
+OAT_MILK,OAT,"Coffee, tea and milk",White,Brown,house
+HORCHATA,HOR,"Coffee, tea and milk",White,Brown,house
+PICKLE_JUICE,PJ,Juices and fruit,Green,White,house
+OLIVE_JUICE,OLV,Juices and fruit,Green,White,house
+BLOOD_ORANGE,BO,Juices and fruit,Red,White,house
+PINK_LEMONADE,PL,Juices and fruit,Pink,Black,house
+PASSION_FRUIT,PF,Juices and fruit,Orange,White,house
+GUAVA,GUA,Juices and fruit,Pink,Black,house
+BANANA,BAN,Juices and fruit,Yellow,Black,house
+CLAMATO,CLAM,Juices and fruit,Red,White,house
+COCONUT_CREAM,CC,Juices and fruit,White,Brown,house
+BLUEBERRY,BLU,Juices and fruit,Blue,White,house
+WATERMELON,WM,Juices and fruit,Pink,Black,house
+KIWI,KIWI,Juices and fruit,Green,White,house
+POMEGRANATE,POM,Juices and fruit,Maroon,White,house
+LYCHEE,LYC,Juices and fruit,Pink,Black,house
+YUZU,YUZU,Juices and fruit,Yellow,Black,house
+CUCUMBER,CUC,Juices and fruit,Green,White,house
+CUCUMBER_LIME,CL,Juices and fruit,Green,White,house
+SIMPLE_SYRUP,SYR,Syrups and flavours,White,Black,house
+AGAVE,AGV,Syrups and flavours,Yellow,Black,house
+HONEY,HNY,Syrups and flavours,Yellow,Black,house
+HFCS_55,HFCS,Syrups and flavours,White,Black,house
+GRENADINE,GREN,Syrups and flavours,Red,White,house
+ORGEAT,ORGT,Syrups and flavours,White,Brown,house
+FALERNUM,FAL,Syrups and flavours,Yellow,Brown,house
+BITTERS,BIT,Syrups and flavours,Brown,White,house
+MINT,MINT,Syrups and flavours,Green,White,house
+BASIL,BAS,Syrups and flavours,Green,White,house
+JALAPENO,JAL,Syrups and flavours,Green,White,house
+SRIRACHA,SRI,Syrups and flavours,Red,White,house
+HOT_SAUCE,HOTS,Syrups and flavours,Red,Yellow,house
+VODKA,VOD,Spirits and liqueurs,White,Blue,house
+GIN,GIN,Spirits and liqueurs,Blue,White,house
 RUM,RUM,Spirits and liqueurs,White,Black,house
-WHITE_RUM,WHITE RUM,Spirits and liqueurs,White,Black,house
-DARK_RUM,DARK RUM,Spirits and liqueurs,White,Black,house
-SPICED_RUM,SPICED RUM,Spirits and liqueurs,White,Black,house
-TEQUILA,TEQUILA,Spirits and liqueurs,White,Black,house
-MEZCAL,MEZCAL,Spirits and liqueurs,White,Black,house
-WHISKEY,WHISKEY,Spirits and liqueurs,White,Black,house
-BOURBON,BOURBON,Spirits and liqueurs,White,Black,house
-SCOTCH,SCOTCH,Spirits and liqueurs,White,Black,house
-IRISH_WHISKEY,IRISH|WHISKEY,Spirits and liqueurs,White,Black,house
-BRANDY,BRANDY,Spirits and liqueurs,White,Black,house
-COGNAC,COGNAC,Spirits and liqueurs,White,Black,house
-PISCO,PISCO,Spirits and liqueurs,White,Black,house
-CACHACA,CACHACA,Spirits and liqueurs,White,Black,house
+WHITE_RUM,WR,Spirits and liqueurs,White,Black,house
+DARK_RUM,DR,Spirits and liqueurs,Brown,White,house
+SPICED_RUM,SR,Spirits and liqueurs,Brown,White,house
+TEQUILA,TEQ,Spirits and liqueurs,White,Black,house
+MEZCAL,MEZ,Spirits and liqueurs,Black,White,house
+WHISKEY,WSKY,Spirits and liqueurs,Brown,White,house
+BOURBON,BRB,Spirits and liqueurs,Brown,White,house
+SCOTCH,SCO,Spirits and liqueurs,Maroon,White,house
+IRISH_WHISKEY,IW,Spirits and liqueurs,Green,White,house
+BRANDY,BDY,Spirits and liqueurs,Brown,White,house
+COGNAC,COG,Spirits and liqueurs,Brown,Yellow,house
+PISCO,PSC,Spirits and liqueurs,Yellow,Black,house
+CACHACA,CACH,Spirits and liqueurs,Green,White,house
 SAKE,SAKE,Spirits and liqueurs,White,Black,house
-SOJU,SOJU,Spirits and liqueurs,White,Black,house
-CAMPARI,CAMPARI,Spirits and liqueurs,White,Black,house
-APEROL,APEROL,Spirits and liqueurs,White,Black,house
-VERMOUTH,VERMOUTH,Spirits and liqueurs,White,Black,house
-DRY_VERMOUTH,DRY|VERMOUTH,Spirits and liqueurs,White,Black,house
-SWEET_VERMOUTH,SWEET|VERMOUTH,Spirits and liqueurs,White,Black,house
-TRIPLE_SEC,TRIPLE SEC,Spirits and liqueurs,White,Black,house
-COINTREAU,COINTREAU,Spirits and liqueurs,White,Black,house
-CURACAO,CURACAO,Spirits and liqueurs,White,Black,house
-AMARETTO,AMARETTO,Spirits and liqueurs,White,Black,house
-KAHLUA,KAHLUA,Spirits and liqueurs,White,Black,house
-BAILEYS,BAILEYS,Spirits and liqueurs,White,Black,house
-SAMBUCA,SAMBUCA,Spirits and liqueurs,White,Black,house
-ABSINTHE,ABSINTHE,Spirits and liqueurs,White,Black,house
-CHARTREUSE,CHART|REUSE,Spirits and liqueurs,White,Black,house
-ST_GERMAIN,ST|GERMAIN,Spirits and liqueurs,White,Black,house
-FERNET,FERNET,Spirits and liqueurs,White,Black,house
-JAGER,JAGER,Spirits and liqueurs,White,Black,house
-MIDORI,MIDORI,Spirits and liqueurs,White,Black,house
-CHAMBORD,CHAMBORD,Spirits and liqueurs,White,Black,house
-LIMONCELLO,LIMON|CELLO,Spirits and liqueurs,White,Black,house
-PROSECCO,PROSECCO,Wine and beer,White,Black,house
-CHAMPAGNE,CHAMPAGNE,Wine and beer,White,Black,house
-WHITE_WINE,WHITE WINE,Wine and beer,White,Black,house
-RED_WINE,RED WINE,Wine and beer,White,Black,house
-ROSE,ROSE,Wine and beer,White,Black,house
-BEER,BEER,Wine and beer,White,Black,house
-LAGER,LAGER,Wine and beer,White,Black,house
-IPA,IPA,Wine and beer,White,Black,house
-STOUT,STOUT,Wine and beer,White,Black,house
-CIDER,CIDER,Wine and beer,White,Black,house
-HARD_SELTZER,HARD|SELTZER,Wine and beer,White,Black,house
-KOMBUCHA,KOMBUCHA,Sodas and mixers,White,Black,house
-ICED_COFFEE,ICED COFFEE,"Coffee, tea and milk",White,Black,house
-HOT_WATER,HOT WATER,Sodas and mixers,White,Black,house
-CLUB_SODA,CLUB SODA,Sodas and mixers,White,Black,house
-SELTZER,SELTZER,Sodas and mixers,White,Black,house
-MINERAL,MINERAL,Sodas and mixers,White,Black,house
-BITTER_LEMON,BITTER LEMON,Sodas and mixers,White,Black,house
-STRAWBERRY,STRAW|BERRY,Juices and fruit,White,Black,house
-RASPBERRY,RASP|BERRY,Juices and fruit,White,Black,house
-BLACKBERRY,BLACK|BERRY,Juices and fruit,White,Black,house
-BLUEBERRY,BLUE|BERRY,Juices and fruit,White,Black,house
-WATERMELON,WATER|MELON,Juices and fruit,White,Black,house
-KIWI,KIWI,Juices and fruit,White,Black,house
-POMEGRANATE,POME|GRANATE,Juices and fruit,White,Black,house
-LYCHEE,LYCHEE,Juices and fruit,White,Black,house
-YUZU,YUZU,Juices and fruit,White,Black,house
-CUCUMBER,CUCUMBER,Juices and fruit,White,Black,house
-MINT,MINT,Syrups and flavours,White,Black,house
-BASIL,BASIL,Syrups and flavours,White,Black,house
-JALAPENO,JALAPENO,Syrups and flavours,White,Black,house
-SRIRACHA,SRIRACHA,Syrups and flavours,White,Black,house
-HOT_SAUCE,HOT SAUCE,Syrups and flavours,White,Black,house
-BLOODY_MARY,BLOODY MARY,Cocktails,White,Black,house
-MARGARITA,MARGARITA,Cocktails,White,Black,house
-MOJITO,MOJITO,Cocktails,White,Black,house
-PINA_COLADA,PINA COLADA,Cocktails,White,Black,house
-DAIQUIRI,DAIQUIRI,Cocktails,White,Black,house
-OLD_FASHIONED,OLD|FASHIONED,Cocktails,White,Black,house
-NEGRONI,NEGRONI,Cocktails,White,Black,house
-SPRITZ,SPRITZ,Cocktails,White,Black,house
-MULE,MULE,Cocktails,White,Black,house
-PALOMA,PALOMA,Cocktails,White,Black,house
-COSMO,COSMO,Cocktails,White,Black,house
-MANHATTAN,MANHATTAN,Cocktails,White,Black,house
-MARTINI,MARTINI,Cocktails,White,Black,house
-SANGRIA,SANGRIA,Cocktails,White,Black,house
-HORCHATA,HORCHATA,"Coffee, tea and milk",White,Black,house
-NITRO,NITRO,"Coffee, tea and milk",White,Black,house
-CO2,CO2,Service,White,Black,house
-DECAF,DECAF,"Coffee, tea and milk",White,Black,house
-SPARE,SPARE,Service,White,Black,house
-CLEAN,CLEAN,Service,White,Black,house
-RINSE,RINSE,Service,White,Black,house
+SOJU,SOJU,Spirits and liqueurs,Green,White,house
+CAMPARI,CAMP,Spirits and liqueurs,Red,Yellow,house
+APEROL,APER,Spirits and liqueurs,Orange,White,house
+VERMOUTH,VERM,Spirits and liqueurs,Maroon,White,house
+DRY_VERMOUTH,DV,Spirits and liqueurs,White,Black,house
+SWEET_VERMOUTH,SV,Spirits and liqueurs,Red,White,house
+TRIPLE_SEC,TS,Spirits and liqueurs,Orange,White,house
+COINTREAU,COIN,Spirits and liqueurs,Orange,White,house
+CURACAO,CUR,Spirits and liqueurs,Blue,White,house
+AMARETTO,AMAR,Spirits and liqueurs,Brown,White,house
+KAHLUA,KAH,Spirits and liqueurs,Black,Yellow,house
+BAILEYS,BLYS,Spirits and liqueurs,White,Brown,house
+SAMBUCA,SAMB,Spirits and liqueurs,White,Black,house
+ABSINTHE,ABS,Spirits and liqueurs,Green,White,house
+CHARTREUSE,CHAR,Spirits and liqueurs,Yellow,Green,house
+ST_GERMAIN,STG,Spirits and liqueurs,Yellow,Black,house
+FERNET,FERN,Spirits and liqueurs,Black,White,house
+JAGER,JAG,Spirits and liqueurs,Black,Orange,house
+MIDORI,MID,Spirits and liqueurs,Green,White,house
+CHAMBORD,CHAM,Spirits and liqueurs,Purple,White,house
+LIMONCELLO,LIMC,Spirits and liqueurs,Yellow,Black,house
+PROSECCO,PRO,Wine and beer,White,Green,house
+CHAMPAGNE,CHMP,Wine and beer,Yellow,Black,house
+WHITE_WINE,WW,Wine and beer,White,Black,house
+RED_WINE,RW,Wine and beer,Maroon,White,house
+ROSE,ROSE,Wine and beer,Pink,Black,house
+BEER,BEER,Wine and beer,Yellow,Black,house
+LAGER,LAG,Wine and beer,Yellow,Black,house
+IPA,IPA,Wine and beer,Orange,White,house
+STOUT,STOUT,Wine and beer,Black,White,house
+CIDER,CIDER,Wine and beer,Green,White,house
+HARD_SELTZER,HSEL,Wine and beer,White,Blue,house
+MOJITO,MOJ,Cocktails,Green,White,house
+DAIQUIRI,DAQ,Cocktails,Pink,Black,house
+OLD_FASHIONED,OF,Cocktails,Brown,White,house
+NEGRONI,NEG,Cocktails,Red,White,house
+SPRITZ,SPZ,Cocktails,Orange,White,house
+MULE,MULE,Cocktails,Brown,White,house
+PALOMA,PAL,Cocktails,Pink,Black,house
+COSMO,COS,Cocktails,Pink,Black,house
+MANHATTAN,MAN,Cocktails,Maroon,White,house
+MARTINI,MART,Cocktails,Grey,Black,house
+SANGRIA,SANG,Cocktails,Maroon,White,house
+CO2,CO2,Service,Grey,Black,house
+SPARE,SPARE,Service,Grey,Black,house
+CLEAN,CLN,Service,Blue,White,house
+RINSE,RNS,Service,Blue,White,house
