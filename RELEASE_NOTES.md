@@ -1,5 +1,5 @@
-Storage tray: caps come off by hand.
+Storage tray: collar sizes from the fit test.
 
-- A 1 mm slot splits every peg into two springy halves (long pegs into two rails), going 0.6 mm into the floor. A cap still clicks on and stays when the tray is bumped, but it now comes off with your fingers.
-- Print `CapTray-fit-coupon.3mf` first. Tune with `collar_d`, `lcollar_w` and `slot_w` in `cad/tray/CapTray.sc`.
-- Caps: the same 458 round and 26 long caps as v0.9.1.
+- The tray's collars are now 7.50 mm (round) and 4.80 mm (long), the coupon that held best in a test print (Creality K2 Plus, PETG): caps stay on when the tray is turned over and come off by hand.
+- `CapTray-fit-coupons.3mf`: eight tray corners with collars from 7.30 to 7.65 mm (long 4.60 to 4.95 mm), the sizes engraved underneath, for tuning to other printers.
+- Caps: the same 458 round and 26 long caps.

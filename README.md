@@ -139,7 +139,8 @@ notches in two walls let you lift a tray out.
 Print `storage/CapTray-fit-coupons.3mf` first: eight corners of the tray, each with 6 round pegs and a
 long peg, with collars from 7.30 to 7.65 mm (round; the cap's rib is 7.2 mm) and 4.60 to 4.95 mm (long;
 the ridge is 4.506 mm). Each coupon has its two sizes engraved underneath. Take the coupon that holds
-best, set `collar_d` and `lcollar_w` in `cad/tray/CapTray.sc` to its sizes, and run `make tray`.
+best, set `collar_d` and `lcollar_w` in `cad/tray/CapTray.sc` to its sizes, and run `make tray`. The
+tray ships with 7.50 / 4.80, the coupon that held best on a Creality K2 Plus in PETG.
 `slot_w` (1.0 mm) sets how much the pegs flex. `box_in` sets the box size.
 
 ![Storage tray](docs/tray.png)
