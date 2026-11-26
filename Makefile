@@ -3,7 +3,7 @@
 #   make            3MF + preview PNG per label (only what changed)
 #   make gallery    build/<type>/index.html and contact-sheet.png
 #   make ordersheet build/order-sheet.pdf: every cap with a checkbox, for bars to order from
-#   make tray       build/tray/: the storage tray and its fit-test coupon
+#   make tray       build/tray/: the storage tray and its 8 fit-test coupons
 #   make docs       docs/<type>-<group>.jpg and the "All caps" part of README.md
 #   make dist VERSION=v0.1.0
 #   make release VERSION=v0.1.0   (draft GitHub release with the archive)
@@ -35,10 +35,10 @@ docs: caps
 ordersheet: gallery
 	$(PYTHON) tools/ordersheet.py --version $(VERSION)
 
-tray:
+tray: venv
 	@mkdir -p build/tray
 	solidcraft-cli run --in cad/tray/CapTray.sc --out build/tray/CapTray.3mf --quiet </dev/null
-	solidcraft-cli run cad/tray/coupon.json --in cad/tray/CapTray.sc --out build/tray/CapTray-fit-coupon.3mf --quiet </dev/null
+	$(PYTHON) tools/tray_coupons.py
 
 dist: gallery ordersheet tray
 	$(PYTHON) tools/dist.py $(VERSION) $(foreach t,$(TYPES),--type $(t))
@@ -46,7 +46,7 @@ dist: gallery ordersheet tray
 release: dist
 	@for t in $(TYPES); do cp build/$$t/contact-sheet.png dist/$$t-contact-sheet.png; done
 	gh release create $(VERSION) dist/wunderbar-buttoncap-$(VERSION).zip \
-	  $(foreach t,$(TYPES),dist/$(t)-contact-sheet.png) build/order-sheet.pdf build/tray/CapTray.3mf build/tray/CapTray-fit-coupon.3mf \
+	  $(foreach t,$(TYPES),dist/$(t)-contact-sheet.png) build/order-sheet.pdf build/tray/CapTray.3mf build/tray/CapTray-fit-coupons.3mf \
 	  --draft --title "wunderbar-buttoncap $(VERSION)" --notes-file RELEASE_NOTES.md
 
 clean:

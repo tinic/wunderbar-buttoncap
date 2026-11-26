@@ -1,4 +1,11 @@
 [
   {"command": "solid.box", "params": {"length": 44.5, "width": 39.5, "height": 8,
-    "center": [-77.25, -79.75, 3.3], "operation": "intersect", "targets": ["Tray"], "name": "FitCoupon"}}
+    "center": [-77.25, -79.75, 3.3], "operation": "intersect", "targets": ["Tray"], "name": "FitCoupon"}},
+  {"command": "sketch.create", "params": {"plane": {"origin": [0, 0, 0], "x_dir": [-1, 0, 0], "y_dir": [0, 1, 0]},
+    "name": "CouponMarkSketch"}},
+  {"command": "sketch.text", "params": {"text_expression": "number(collar_d, 2) + ' / ' + number(lcollar_w, 2)",
+    "at": [77.25, -77.5], "align": "center", "vertical_align": "middle", "height": 3.5}},
+  {"command": "sketch.finish", "params": {}},
+  {"command": "solid.extrude", "params": {"sketch": "CouponMarkSketch", "distance": 0.4, "direction": "negative",
+    "operation": "cut", "targets": ["Tray"], "name": "CouponMark"}}
 ]

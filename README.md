@@ -136,10 +136,11 @@ comes off by hand. A tray holds 210 round caps (15 x 14)
 and, in the front row, 8 long caps. Trays stack: each stands on the rim of the one below, and the
 notches in two walls let you lift a tray out.
 
-Print `storage/CapTray-fit-coupon.3mf` first: a corner of the tray with 6 round pegs and a long peg. If
-the caps hold too little or too much, change `collar_d` (round, default 7.35 mm against the cap's 7.2 mm
-rib) and `lcollar_w` (long, 4.65 mm against 4.506 mm) in `cad/tray/CapTray.sc` in 0.05 mm steps, or
-`slot_w` (the flex slot, 1.0 mm), and run `make tray`. `box_in` sets the box size.
+Print `storage/CapTray-fit-coupons.3mf` first: eight corners of the tray, each with 6 round pegs and a
+long peg, with collars from 7.30 to 7.65 mm (round; the cap's rib is 7.2 mm) and 4.60 to 4.95 mm (long;
+the ridge is 4.506 mm). Each coupon has its two sizes engraved underneath. Take the coupon that holds
+best, set `collar_d` and `lcollar_w` in `cad/tray/CapTray.sc` to its sizes, and run `make tray`.
+`slot_w` (1.0 mm) sets how much the pegs flex. `box_in` sets the box size.
 
 ![Storage tray](docs/tray.png)
 
